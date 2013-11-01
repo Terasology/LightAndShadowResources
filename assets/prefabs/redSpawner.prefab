@@ -1,0 +1,14 @@
+{
+    "parent" : "engine:iconItem",
+    "Item" : {
+        "name" : "Red Spawn",
+        "icon" : "scissors",
+		"usage" : "ON_BLOCK"
+    },
+  	"PlaySoundAction" : {
+    	sounds = "engine:click"
+  	},
+    "Spawner" : {
+        "prefabs" : ["LightAndShadowResources:redPawn", "LightAndShadowResources:redFool", "LightAndShadowResources:redKing"]
+    }
+}

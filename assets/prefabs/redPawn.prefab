@@ -1,0 +1,41 @@
+{
+    "persisted" : true,
+    "location" : {},
+    "skeletalmesh" : {
+        "mesh" : "LightAndShadowResources:redPawn",
+        "material" : "LightAndShadowResources:redPawnSkin",
+        "animation" : "LightAndShadowResources:redPawnStill",
+        "loop" : true
+    },
+
+    "Character": {},
+    "MinionPath" : {},
+    "JobMinion" : {},
+	"CharacterMovement" : {
+        "groundFriction" : 16,
+        "maxGroundSpeed" : 2,
+        "distanceBetweenFootsteps" : 1.5,
+        "distanceBetweenSwimStrokes" : 2.5,
+        "height" : 1.6,
+        "radius" : 0.3,
+        "jumpSpeed" : 12
+  },
+    "Trigger" : {
+        "detectGroups" : ["engine:debris"]
+    },
+  "Animation" : {
+		"walkAnim" = "LightAndShadowResources:redPawnWalk",
+		"idleAnim" = "LightAndShadowResources:redPawnStill",
+		"attackAnim" = "LightAndShadowResources:redPawnWalk",
+		"dieAnim" = "LightAndShadowResources:redPawnWalk",
+		"fadeInAnim" = "LightAndShadowResources:redPawnWalk",
+		"fadeOutAnim" = "LightAndShadowResources:redPawnWalk",
+		"workAnim" = "LightAndShadowResources:redPawnWalk",
+		"terraformAnim" = "LightAndShadowResources:redPawnWalk",
+		"randomAnim" : ["LightAndShadowResources:redPawnWalk", "LightAndShadowResources:redPawnWalk"]
+	},
+  "CharacterSound" : {
+	    "footstepSounds" : ["FootGrass1", "FootGrass2", "FootGrass3", "FootGrass4", "FootGrass5"],
+	    "footstepVolume" : 0.7
+  }
+}
