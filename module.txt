@@ -1,0 +1,9 @@
+{
+    "id" : "LightAndShadowResources",
+    "version" : "0.1.0",
+    "author" : "glasz, SuperSnark, Skaldarnar",
+    "displayName" : "LightAndShadowResources",
+    "description" : "Art resources module for Light & Shadow, a.k.a. LASR!",
+    "dependencies" : [],
+    "isServerSideOnly" : false
+}
