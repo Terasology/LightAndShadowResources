@@ -9,6 +9,6 @@
     	sounds = "engine:click"
   	},
     "Spawner" : {
-        "prefabs" : ["LightAndShadowResources:redPawn", "LightAndShadowResources:redFool", "LightAndShadowResources:redKing"]
+        "prefabs" : ["LightAndShadowResources:redpawn", "LightAndShadowResources:redfool", "LightAndShadowResources:redking", "LightAndShadowResources:redknight", "LightAndShadowResources:redqueen", "LightAndShadowResources:rookelephant", ]
     }
 }
