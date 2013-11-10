@@ -1,0 +1,17 @@
+{
+    "attachmentAllowed" : false,
+    "rotation" : "horizontal",
+    // Graphics
+    "tiles" : {
+        "sides" : "core:ChestSides",
+        "front" : "LightAndShadowResources:RedPawnBox",
+        "topBottom" : "core:ChestTopBottom"
+    },
+    "entity" : {
+        "prefab" : "core:chest"
+    },
+    "inventory" : {
+        "stackable" : false,
+        "directPickup" : true
+    }
+}
