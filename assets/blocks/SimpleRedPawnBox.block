@@ -3,8 +3,7 @@
     "rotation" : "horizontal",
     // Graphics
     "tiles" : {
-        "sides" : "core:ChestSides",
-        "front" : "LightAndShadowResources:RedPawnBox",
+        "sides" : "LightAndShadowResources:SimpleRedPawnBox",
         "topBottom" : "core:ChestTopBottom"
     },
     "entity" : {
