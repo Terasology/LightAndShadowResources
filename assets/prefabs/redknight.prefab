@@ -10,9 +10,7 @@
     },
 
     "Character": {},
-    "MinionMove" : {},
-    "MinionPath" : {},
-    "JobMinion" : {},
+    "Behavior" : {},
     "CharacterMovement" : {
         "groundFriction" : 16,
         "maxGroundSpeed" : 2,
