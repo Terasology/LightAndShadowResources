@@ -1,6 +1,6 @@
 {
     "template" : true,
-    "basedOn" : "engine:plant",
+    "basedOn" : "core:plant",
     "replacementAllowed" : false,
     "attachmentAllowed" : true
 }
