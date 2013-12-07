@@ -1,0 +1,7 @@
+{
+    "Location" : {},
+    "Mesh" : {
+        "mesh" : "LightAndShadowResources:hammer",
+        "material" : "LightAndShadowResources:tool"
+    }
+}

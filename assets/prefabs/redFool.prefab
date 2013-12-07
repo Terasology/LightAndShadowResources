@@ -10,7 +10,9 @@
     },
 
     "Character": {},
-    "Behavior" : {},
+    "Behavior" : {
+        "behavior" : "default"
+    },
     "CharacterMovement" : {
         "groundFriction" : 16,
         "maxGroundSpeed" : 2,

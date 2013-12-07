@@ -1,0 +1,7 @@
+{
+    "Location" : {},
+    "Mesh" : {
+        "mesh" : "LightAndShadowResources:palette",
+        "material" : "LightAndShadowResources:tool"
+    }
+}

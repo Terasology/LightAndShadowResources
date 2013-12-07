@@ -1,0 +1,7 @@
+{
+    "Location" : {},
+    "Mesh" : {
+        "mesh" : "LightAndShadowResources:spear",
+        "material" : "LightAndShadowResources:tool"
+    }
+}
