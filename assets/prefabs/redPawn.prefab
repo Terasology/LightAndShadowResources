@@ -41,8 +41,8 @@
         "footstepVolume" : 0.7
     },
     "Spawnable" : {
-      "type" : "RedPawn",
-      "itemToConsume" : "engine:dirt"
+      "tags" : ["RedPawn", "RedTeamLAS"],
+      "itemToConsume" : "core:dirt"
     }
 }
 

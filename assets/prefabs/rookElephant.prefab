@@ -41,7 +41,7 @@
         "footstepVolume" : 0.7
     },
     "Spawnable" : {
-      "type" : "RedTeamLAS"
+      "tags" : ["RedRook", "RedTeamLAS"]
     }
 }
 

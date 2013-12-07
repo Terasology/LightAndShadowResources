@@ -1,6 +1,6 @@
 {
     "template" : true,
-    "shape" : "engine:door",
+    "shape" : "core:door",
     "rotation" : "horizontal",
     "attachmentAllowed" : true,
     "craftPlace" : false
