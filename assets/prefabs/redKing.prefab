@@ -11,7 +11,7 @@
 
     "Character": {},
     "Behavior" : {
-            "behavior" : "default"
+            "behavior" : "Pathfinding:workOnJob"
     },
     "CharacterMovement" : {
         "groundFriction" : 16,
@@ -25,6 +25,8 @@
     "Trigger" : {
         "detectGroups" : ["engine:debris"]
     },
+        "Health" : {},
+
     "Animation" : {
         "walkAnim" = "LightAndShadowResources:redkingWalk",
         "idleAnim" = "LightAndShadowResources:redkingStill",
