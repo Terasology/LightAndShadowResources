@@ -11,7 +11,7 @@
 
     "Character": {},
     "Behavior" : {
-            "behavior" : "Pathfinding:walkToPlayer"
+            "tree" : "Pathfinding:walkToPlayer"
     },
     "CharacterMovement" : {
         "groundFriction" : 16,

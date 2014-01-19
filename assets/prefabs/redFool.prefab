@@ -11,7 +11,7 @@
 
     "Character": {},
     "Behavior" : {
-        "behavior" : "Pathfinding:workOnJob"
+        "tree" : "Pathfinding:workOnJob"
     },
     "CharacterMovement" : {
         "groundFriction" : 16,
