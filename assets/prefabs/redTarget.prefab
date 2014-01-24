@@ -8,5 +8,6 @@
     "PlaySoundAction" : {
         sounds = "engine:click"
     },
-    "AccessInventoryAction": {}
+    "AccessInventoryAction": {},
+    "Target" : {}
 }

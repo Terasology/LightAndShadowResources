@@ -1,0 +1,140 @@
+{
+  "model": {
+    "nodeType": "org.terasology.logic.behavior.tree.RepeatNode",
+    "nodeId": 0,
+    "node": {
+      "child": {
+        "nodeType": "org.terasology.logic.behavior.tree.SequenceNode",
+        "nodeId": 1,
+        "node": {
+          "children": [
+            {
+              "nodeType": "org.terasology.logic.behavior.tree.SelectorNode",
+              "nodeId": 2,
+              "node": {
+                "children": [
+                  {
+                    "nodeType": "org.terasology.logic.behavior.tree.SequenceNode",
+                    "nodeId": 3,
+                    "node": {
+                      "children": [
+                        {
+                          "nodeType": "org.terasology.ligthandshadow.nodes.SetTargetTargetBlockNode",
+                          "nodeId": 4,
+                          "node": {}
+                        },
+                        {
+                          "nodeType": "org.terasology.minion.move.FindWalkableBlockNode",
+                          "nodeId": 5,
+                          "node": {}
+                        },
+                        {
+                          "nodeType": "org.terasology.minion.move.MoveToNode",
+                          "nodeId": 6,
+                          "node": {}
+                        },
+                        {
+                          "nodeType": "org.terasology.minion.path.FindPathToNode",
+                          "nodeId": 7,
+                          "node": {}
+                        },
+                        {
+                          "nodeType": "org.terasology.minion.path.MoveAlongPathNode",
+                          "nodeId": 8,
+                          "node": {
+                            "child": {
+                              "nodeType": "org.terasology.logic.behavior.tree.MonitorNode",
+                              "nodeId": 9,
+                              "node": {
+                                "successPolicy": "RequireOne",
+                                "failurePolicy": "RequireOne",
+                                "children": [
+                                  {
+                                    "nodeType": "org.terasology.logic.behavior.tree.TimerNode",
+                                    "nodeId": 10,
+                                    "node": {
+                                      "result": "FAILURE",
+                                      "time": 5.0
+                                    }
+                                  },
+                                  {
+                                    "nodeType": "org.terasology.logic.behavior.tree.ParallelNode",
+                                    "nodeId": 11,
+                                    "node": {
+                                      "successPolicy": "RequireAll",
+                                      "failurePolicy": "RequireOne",
+                                      "children": [
+                                        {
+                                          "nodeType": "org.terasology.minion.move.MoveToNode",
+                                          "nodeId": 12,
+                                          "node": {}
+                                        },
+                                        {
+                                          "nodeType": "org.terasology.minion.move.PlayAnimationNode",
+                                          "nodeId": 13,
+                                          "node": {
+                                            "animation": "walk",
+                                            "loop": false
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "nodeType": "org.terasology.minion.move.FindWalkableBlockNode",
+                          "nodeId": 14,
+                          "node": {}
+                        },
+                        {
+                          "nodeType": "org.terasology.logic.behavior.tree.ParallelNode",
+                          "nodeId": 15,
+                          "node": {
+                            "successPolicy": "RequireAll",
+                            "failurePolicy": "RequireOne",
+                            "children": [
+                              {
+                                "nodeType": "org.terasology.jobSystem.FinishJobNode",
+                                "nodeId": 16,
+                                "node": {}
+                              },
+                              {
+                                "nodeType": "org.terasology.minion.move.PlayAnimationNode",
+                                "nodeId": 17,
+                                "node": {
+                                  "animation": "work",
+                                  "loop": false
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "nodeType": "org.terasology.minion.move.JumpNode",
+                    "nodeId": 18,
+                    "node": {}
+                  }
+                ]
+              }
+            },
+            {
+              "nodeType": "org.terasology.minion.move.PlayAnimationNode",
+              "nodeId": 19,
+              "node": {
+                "animation": "idle",
+                "loop": false
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

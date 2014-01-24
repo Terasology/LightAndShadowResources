@@ -11,7 +11,7 @@
 
     "Character": {},
     "Behavior" : {
-            "tree" : "Pathfinding:workOnJob"
+            "tree" : "moveToTargetBlock"
     },
     "CharacterMovement" : {
         "groundFriction" : 16,
