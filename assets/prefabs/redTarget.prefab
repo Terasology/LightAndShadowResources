@@ -8,10 +8,5 @@
     "PlaySoundAction" : {
         sounds = "engine:click"
     },
-    "AccessInventoryAction": {},
-    "Network" : {
-    },
-    "Spawner" : {
-        "types" : ["RedPawn"]
-    }
+    "AccessInventoryAction": {}
 }

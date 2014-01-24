@@ -1,0 +1,17 @@
+{
+    "Inventory": {
+        "privateToOwner" : false,
+        "itemSlots": [
+            0
+        ]
+    },
+    "PlaySoundAction" : {
+        sounds = "engine:click"
+    },
+    "Spawner" : {
+        "prefabs" : ["LightAndShadowResources:redpawn", "LightAndShadowResources:redfool", "LightAndShadowResources:redking", "LightAndShadowResources:redknight", "LightAndShadowResources:redqueen", "LightAndShadowResources:rookelephant" ],
+        "each" : 10, // in seconds
+        "spawn" : 1, //
+        "max" : 6
+    }
+}
