@@ -2,9 +2,8 @@
 {
     "shader" : "engine:genericMeshMaterial",
     "params" : {
-        "diffuse" : "LightAndShadowResources:redking",
+        "diffuse" : "redKing",
         "colorOffset" : [1.0, 1.0, 1.0],
         "textured" : true
     }
 }
-    

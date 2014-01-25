@@ -3,15 +3,15 @@
     "persisted" : true,
     "location" : {},
     "skeletalmesh" : {
-        "mesh" : "fool",
-        "material" : "redFoolSkin",
-        "animation" : "foolStill",
+        "mesh" : "rook",
+        "material" : "blackRookSkin",
+        "animation" : "rookStill",
         "loop" : true
     },
 
     "Character": {},
     "Behavior" : {
-        "tree" : "Pathfinding:workOnJob"
+            "tree" : "Pathfinding:walkToPlayer"
     },
     "CharacterMovement" : {
         "groundFriction" : 16,
@@ -25,24 +25,25 @@
     "Trigger" : {
         "detectGroups" : ["engine:debris"]
     },
-    "Health" : {},
+        "Health" : {},
+
     "Animation" : {
-        "walkAnim" = "foolWalk",
-        "idleAnim" = "foolStill",
-        "attackAnim" = "foolWalk",
-        "dieAnim" = "foolWalk",
-        "fadeInAnim" = "foolWalk",
-        "fadeOutAnim" = "foolWalk",
-        "workAnim" = "foolWalk",
-        "terraformAnim" = "foolWalk",
-        "randomAnim" : ["foolWalk", "foolWalk"]
+        "walkAnim" = "rookWalk",
+        "idleAnim" = "rookStill",
+        "attackAnim" = "rookWalk",
+        "dieAnim" = "rookWalk",
+        "fadeInAnim" = "rookWalk",
+        "fadeOutAnim" = "rookWalk",
+        "workAnim" = "rookWalk",
+        "terraformAnim" = "rookWalk",
+        "randomAnim" : ["rookWalk", "rookWalk"]
     },
     "CharacterSound" : {
         "footstepSounds" : ["FootGrass1", "FootGrass2", "FootGrass3", "FootGrass4", "FootGrass5"],
         "footstepVolume" : 0.7
     },
-    "LASTeam" : {
-        "team" : "red"
-    }
+     "LASTeam" : {
+         "team" : "black"
+     }
 }
 

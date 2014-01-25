@@ -4,7 +4,7 @@
     "location" : {},
     "skeletalmesh" : {
         "mesh" : "fool",
-        "material" : "redFoolSkin",
+        "material" : "blackFoolSkin",
         "animation" : "foolStill",
         "loop" : true
     },
@@ -42,7 +42,7 @@
         "footstepVolume" : 0.7
     },
     "LASTeam" : {
-        "team" : "red"
+        "team" : "black"
     }
 }
 

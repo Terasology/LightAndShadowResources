@@ -9,13 +9,13 @@
         sounds = "engine:click"
     },
     "Spawner" : {
-        "prefabs" : ["redPawn", "redFool", "redKing", "redKnight", "redQueen", "redRook" ],
+        "prefabs" : ["blackPawn", "blackFool", "blackKing", "blackKnight", "blackQueen", "blackRook" ],
         "each" : 10, // in seconds
         "spawn" : 1, //
         "max" : 6
     },
      "LASTeam" : {
-         "team" : "black"
+         "team" : "red"
      },
      "Target" : {}
 }
