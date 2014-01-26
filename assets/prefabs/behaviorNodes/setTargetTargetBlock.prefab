@@ -1,6 +1,6 @@
 {
     "BehaviorNode" : {
-        "type"      : "org.terasology.ligthandshadow.nodes.SetTargetTargetBlockNode",
+        "type"      : "SetTargetTargetBlockNode",
         "name"      : "Set target block",
         "category"  : "las",
         "shape"     : "rect",
