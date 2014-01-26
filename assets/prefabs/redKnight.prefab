@@ -1,32 +1,14 @@
-
 {
-    "persisted" : true,
-    "location" : {},
+    "parent" : "redMinion",
     "skeletalmesh" : {
         "mesh" : "knight",
         "material" : "redKnightSkin",
         "animation" : "knightStill",
         "loop" : true
     },
-
-    "Character": {},
     "Behavior" : {
-            "tree" : "moveToTargetBlock"
+        "tree" : "moveToTargetBlock"
     },
-    "CharacterMovement" : {
-        "groundFriction" : 16,
-        "maxGroundSpeed" : 2,
-        "distanceBetweenFootsteps" : 1.5,
-        "distanceBetweenSwimStrokes" : 2.5,
-        "height" : 1.6,
-        "radius" : 0.3,
-        "jumpSpeed" : 12
-    },
-    "Trigger" : {
-        "detectGroups" : ["engine:debris"]
-    },
-        "Health" : {},
-
     "Animation" : {
         "walkAnim" = "knightWalk",
         "idleAnim" = "knightStill",
@@ -37,13 +19,6 @@
         "workAnim" = "knightWalk",
         "terraformAnim" = "knightWalk",
         "randomAnim" : ["knightWalk", "knightWalk"]
-    },
-    "CharacterSound" : {
-        "footstepSounds" : ["FootGrass1", "FootGrass2", "FootGrass3", "FootGrass4", "FootGrass5"],
-        "footstepVolume" : 0.7
-    },
-     "LASTeam" : {
-         "team" : "red"
-     }
+    }
 }
 

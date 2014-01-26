@@ -1,0 +1,6 @@
+{
+    "parent" : "minion",
+    "LASTeam" : {
+        "team" : "red"
+    }
+}
