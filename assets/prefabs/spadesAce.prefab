@@ -1,7 +1,7 @@
 {
     "Item" : {
         "name" : "Spades Ace",
-        "icon" : "door",
+        "icon" : "LightAndShadowResources:items.spade",
         "renderWithIcon" : true,
         "stackId" : "spadesAce",
         "consumedOnUse" : false,

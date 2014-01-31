@@ -1,7 +1,7 @@
 {
     "Item" : {
         "name" : "Hearts Ace",
-        "icon" : "door",
+        "icon" : "LightAndShadowResources:items.heart",
         "renderWithIcon" : true,
         "stackId" : "heartsAce",
         "consumedOnUse" : false,
