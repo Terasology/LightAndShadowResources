@@ -2,6 +2,7 @@
     "parent" : "blackMinion",
     "skeletalmesh" : {
         "mesh" : "king",
+        "heightOffset" : -0.8,
         "material" : "blackKingSkin",
         "animation" : "kingStill",
         "loop" : true

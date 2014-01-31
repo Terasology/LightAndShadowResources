@@ -2,6 +2,7 @@
     "parent" : "blackMinion",
     "skeletalmesh" : {
         "mesh" : "queen",
+        "heightOffset" : -0.8,
         "material" : "blackQueenSkin",
         "animation" : "queenStill",
         "loop" : true
