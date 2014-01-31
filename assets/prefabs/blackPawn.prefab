@@ -2,6 +2,7 @@
     "parent" : "blackMinion",
     "skeletalmesh" : {
         "mesh" : "pawn",
+        "heightOffset" : -0.8,
         "material" : "blackPawnSkin",
         "animation" : "pawnStill",
         "loop" : true

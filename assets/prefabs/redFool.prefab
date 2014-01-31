@@ -2,6 +2,7 @@
     "parent" : "redMinion",
     "skeletalmesh" : {
         "mesh" : "fool",
+        "heightOffset" : -0.8,
         "material" : "redFoolSkin",
         "animation" : "foolStill",
         "loop" : true

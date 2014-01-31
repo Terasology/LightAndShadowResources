@@ -2,6 +2,7 @@
     "parent" : "redMinion",
     "skeletalmesh" : {
         "mesh" : "knight",
+        "heightOffset" : -0.8,
         "material" : "redKnightSkin",
         "animation" : "knightStill",
         "loop" : true
