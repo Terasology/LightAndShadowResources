@@ -5,7 +5,6 @@
     "Trigger" : {
         "detectGroups" : ["engine:debris"]
     },
-    "CreatureName" : {},
     "CreatureNameGenerator" : {
         "genderRatio" : 0.5,
         "nobility" : 0.5,
