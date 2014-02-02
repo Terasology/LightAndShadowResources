@@ -8,7 +8,7 @@
         "loop" : true
     },
     "Behavior" : {
-        "tree" : "walkToPlayer"
+        "tree" : "attackBlack"
     },
     "Animation" : {
         "walkAnim" = "rookWalk",

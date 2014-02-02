@@ -8,7 +8,7 @@
         "loop" : true
     },
     "Behavior" : {
-        "tree" : "moveToTargetBlock"
+        "tree" : "attackBlack"
     },
     "Animation" : {
         "walkAnim" = "knightWalk",

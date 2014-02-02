@@ -8,7 +8,7 @@
         "loop" : true
     },
     "Behavior" : {
-        "tree" : "workOnJob"
+        "tree" : "work"
     },
     "Animation" : {
         "walkAnim" = "pawnWalk",
