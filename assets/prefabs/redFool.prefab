@@ -8,7 +8,7 @@
         "loop" : true
     },
     "Behavior" : {
-        "tree" : "work"
+        "tree" : "worker"
     },
     "Animation" : {
         "walkAnim" = "foolWalk",
