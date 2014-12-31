@@ -10,16 +10,11 @@
     "Behavior" : {
         "tree" : "worker"
     },
-    "Animation" : {
-        "walkAnim" = "pawnWalk",
-        "idleAnim" = "pawnStill",
-        "attackAnim" = "pawnWalk",
-        "dieAnim" = "pawnWalk",
-        "fadeInAnim" = "pawnWalk",
-        "fadeOutAnim" = "pawnWalk",
-        "workAnim" = "pawnWalk",
-        "terraformAnim" = "pawnWalk",
-        "randomAnim" : ["pawnWalk", "pawnWalk"]
+    "Stand" :{
+        "animationPool": ["pawnStill"]
+    },
+    "Walk" :{
+        "animationPool": ["pawnWalk"]
     }
 }
 

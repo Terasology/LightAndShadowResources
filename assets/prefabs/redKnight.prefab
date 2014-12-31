@@ -10,16 +10,11 @@
     "Behavior" : {
         "tree" : "attackBlack"
     },
-    "Animation" : {
-        "walkAnim" = "knightWalk",
-        "idleAnim" = "knightStill",
-        "attackAnim" = "knightWalk",
-        "dieAnim" = "knightWalk",
-        "fadeInAnim" = "knightWalk",
-        "fadeOutAnim" = "knightWalk",
-        "workAnim" = "knightWalk",
-        "terraformAnim" = "knightWalk",
-        "randomAnim" : ["knightWalk", "knightWalk"]
+    "Stand" :{
+        "animationPool": ["knightStill"]
+    },
+    "Walk" :{
+        "animationPool": ["knightWalk"]
     }
 }
 

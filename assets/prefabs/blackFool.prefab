@@ -10,16 +10,11 @@
     "Behavior" : {
         "tree" : "worker"
     },
-    "Animation" : {
-        "walkAnim" = "foolWalk",
-        "idleAnim" = "foolStill",
-        "attackAnim" = "foolWalk",
-        "dieAnim" = "foolWalk",
-        "fadeInAnim" = "foolWalk",
-        "fadeOutAnim" = "foolWalk",
-        "workAnim" = "foolWalk",
-        "terraformAnim" = "foolWalk",
-        "randomAnim" : ["foolWalk", "foolWalk"]
+    "Stand" :{
+        "animationPool": ["foolStill"]
+    },
+    "Walk" :{
+        "animationPool": ["foolWalk"]
     }
 }
 

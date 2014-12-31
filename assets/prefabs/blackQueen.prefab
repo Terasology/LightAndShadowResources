@@ -10,16 +10,11 @@
     "Behavior" : {
         "tree" : "attackRed"
     },
-    "Animation" : {
-        "walkAnim" = "queenWalk",
-        "idleAnim" = "queenStill",
-        "attackAnim" = "queenWalk",
-        "dieAnim" = "queenWalk",
-        "fadeInAnim" = "queenWalk",
-        "fadeOutAnim" = "queenWalk",
-        "workAnim" = "queenWalk",
-        "terraformAnim" = "queenWalk",
-        "randomAnim" : ["queenWalk", "queenWalk"]
+    "Stand" :{
+        "animationPool": ["queenStill"]
+    },
+    "Walk" :{
+        "animationPool": ["queenWalk"]
     }
 }
 

@@ -10,16 +10,11 @@
     "Behavior" : {
         "tree" : "attackRed"
     },
-    "Animation" : {
-        "walkAnim" = "rookWalk",
-        "idleAnim" = "rookStill",
-        "attackAnim" = "rookWalk",
-        "dieAnim" = "rookWalk",
-        "fadeInAnim" = "rookWalk",
-        "fadeOutAnim" = "rookWalk",
-        "workAnim" = "rookWalk",
-        "terraformAnim" = "rookWalk",
-        "randomAnim" : ["rookWalk", "rookWalk"]
+    "Stand" :{
+        "animationPool": ["rookStill"]
+    },
+    "Walk" :{
+        "animationPool": ["rookWalk"]
     }
 }
 
