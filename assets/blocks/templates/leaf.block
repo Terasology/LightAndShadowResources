@@ -1,0 +1,11 @@
+/**
+ * Template for LaS leaf blocks without color grading.
+ */
+{
+    "template" : true,
+    "attachmentAllowed" : true,
+    "hardness" : 1,
+    "debrisOnDestroy" : false,
+    "waving" : true,
+    "translucent" : true
+}
