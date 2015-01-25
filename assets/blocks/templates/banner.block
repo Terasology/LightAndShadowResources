@@ -1,0 +1,12 @@
+{
+    "template" : true,
+    "hardness" : 1,
+    "attachmentAllowed" : false,
+    "rotation" : "horizontal",
+    "climbable" : true,
+    "penetrable" : false,
+    "shape" : "engine:verticalOffsetPlane",
+    "translucent" : true,
+    "doubleSided" : true,
+    "waving" : true
+}
