@@ -8,5 +8,5 @@
     "shape" : "engine:verticalOffsetPlane",
     "translucent" : true,
     "doubleSided" : true,
-    "waving" : true
+    "waving" : false
 }
