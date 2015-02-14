@@ -1,0 +1,16 @@
+{
+  "parent": "engine:iconItem",
+  "Item": {
+    "icon": "LightAndShadowResources:items.yang",
+    "renderWithIcon": true
+  },
+  "CustomRenderedItemMesh": {
+    "mesh": "LightAndShadowResources:yang",
+    "material": "LightAndShadowResources:yang"
+  },
+  "AnimateRotation": {
+    "roll": "CLOCKWISE_90",
+    "speed": 1.5,
+    "isSynchronized": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "Inventory": {
+    "privateToOwner": false,
+    "itemSlots": [
+      0,
+      0
+    ]
+  },
+  "InteractionTarget": {},
+  "InteractionScreen": {
+    "screen": "engine:containerScreen"
+  },
+  "RenderInventorySlots": {
+    "slots": [
+      0,
+      1
+    ],
+    "translate": [
+      0,
+      1,
+      0
+    ],
+    "itemSize": 0.25,
+    "rotateWithBlock": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "parent": "engine:iconItem",
+  "Item": {
+    "icon": "LightAndShadowResources:items.yin",
+    "renderWithIcon": true
+  },
+  "CustomRenderedItemMesh": {
+    "mesh": "LightAndShadowResources:yin",
+    "material": "LightAndShadowResources:yin"
+  },
+  "AnimateRotation": {
+    "yaw": "CLOCKWISE_90",
+    "speed": 1.5,
+    "isSynchronized": true
+  }
+}
