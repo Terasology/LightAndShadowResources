@@ -9,8 +9,7 @@
     "material": "LightAndShadowResources:yang"
   },
   "AnimateRotation": {
-    "roll": "CLOCKWISE_90",
-    "speed": 1.5,
+    "rollSpeed": 1.5,
     "isSynchronized": true
   }
 }
