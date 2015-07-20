@@ -1,7 +1,7 @@
 {
     "Item" : {
         "name" : "Clubs Ace",
-        "icon" : "LightAndShadowResources:items.club",
+        "icon" : "LightAndShadowResources:items#club",
         "renderWithIcon" : true,
         "stackId" : "clubsAce",
         "consumedOnUse" : false,

@@ -1,7 +1,7 @@
 {
     "Item" : {
         "name" : "Diamonds Ace",
-        "icon" : "LightAndShadowResources:items.diamond",
+        "icon" : "LightAndShadowResources:items#diamond",
         "renderWithIcon" : true,
         "stackId" : "diamondsAce",
         "consumedOnUse" : false,
