@@ -1,0 +1,8 @@
+/**
+ * Indestructible stone
+ */
+{
+    "basedOn" : "core:Stone",
+    "hardness" : 0,
+    "shadowCasting" : false
+}

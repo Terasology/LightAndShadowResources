@@ -1,0 +1,8 @@
+/**
+ * Indestructible planks
+ */
+{
+    "basedOn" : "core:Plank",
+    "hardness" : 0,
+    "shadowCasting" : false
+}
