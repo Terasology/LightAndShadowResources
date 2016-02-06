@@ -2,7 +2,6 @@
     "Item" : {
         "name" : "Clubs Ace",
         "icon" : "LightAndShadowResources:items#club",
-        "renderWithIcon" : true,
         "stackId" : "clubsAce",
         "consumedOnUse" : false,
         "usage" : "ON_BLOCK"

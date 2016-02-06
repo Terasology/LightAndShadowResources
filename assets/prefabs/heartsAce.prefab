@@ -2,7 +2,6 @@
     "Item" : {
         "name" : "Hearts Ace",
         "icon" : "LightAndShadowResources:items#heart",
-        "renderWithIcon" : true,
         "stackId" : "heartsAce",
         "consumedOnUse" : false,
         "usage" : "ON_BLOCK"

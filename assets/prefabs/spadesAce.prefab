@@ -2,7 +2,6 @@
     "Item" : {
         "name" : "Spades Ace",
         "icon" : "LightAndShadowResources:items#spade",
-        "renderWithIcon" : true,
         "stackId" : "spadesAce",
         "consumedOnUse" : false,
         "usage" : "ON_BLOCK"

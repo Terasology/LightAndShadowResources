@@ -2,7 +2,6 @@
     "Item" : {
         "name" : "Diamonds Ace",
         "icon" : "LightAndShadowResources:items#diamond",
-        "renderWithIcon" : true,
         "stackId" : "diamondsAce",
         "consumedOnUse" : false,
         "usage" : "ON_BLOCK"
