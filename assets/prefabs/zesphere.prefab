@@ -1,9 +1,0 @@
-{
-  "Location" : {
-    "scale" : 1
-  },
-  "Mesh" : {
-    "mesh" : "LightAndShadowResources:zesphere",
-    "material" : "LightAndShadowResources:zesphere"
-  }
-}

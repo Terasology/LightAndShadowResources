@@ -1,7 +1,7 @@
 {
     "shader" : "engine:genericMeshMaterial",
     "params" : {
-        "diffuse": "LightAndShadowResources:zesphere",
+        "diffuse": "LightAndShadowResources:magicDome",
         "colorOffset" : [1.0, 1.0, 1.0],
         "textured" : true
     }
