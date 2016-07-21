@@ -1,5 +1,7 @@
 {
-  "MagicDome": {},
+  "MagicDome": {
+    "hitSound" : "LightAndShadowResources:magicDomeSwoosh"
+  },
   "Location" : {
     "scale" : 20
   },
