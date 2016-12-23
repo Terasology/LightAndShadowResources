@@ -1,7 +1,7 @@
 {
     "id" : "LightAndShadowResources",
     "version" : "0.2.0-SNAPSHOT",
-    "author" : "glasz, SuperSnark, Skaldarnar, msteiger",
+    "author" : "glasz, SuperSnark, Skaldarnar, msteiger, smsunarto",
     "displayName" : "LightAndShadowResources",
     "description" : "Art resources module for Light & Shadow, a.k.a. LASR!",
     "dependencies" : [
