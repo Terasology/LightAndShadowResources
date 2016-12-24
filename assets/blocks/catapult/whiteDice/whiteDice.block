@@ -1,0 +1,12 @@
+{
+    "basedOn" : "lightAndShadowResources:dice",
+    "displayName": "White Dice",
+    "tiles" : {
+        "top" : "whiteDice1",
+        "bottom" : "whiteDice6",
+        "front" : "whiteDice2",
+        "back" : "whiteDice5",
+        "left" : "whiteDice3",
+        "right" : "whiteDice4"
+    }
+}
