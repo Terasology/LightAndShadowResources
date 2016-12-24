@@ -1,6 +1,1 @@
-{
-    "RotateBlockOnActivate" : {},
-    "PlaySoundAction": {
-        "sounds": "rollDice"
-    }
-}
+{}
