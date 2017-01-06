@@ -1,1 +1,7 @@
-{}
+{
+    "tiles" : {
+        "top" : "LightAndShadowResources:eastCenterBlockCenter",
+        "sides" : "LightAndShadowResources:whiteBlockCenter",
+        "bottom" : "LightAndShadowResources: whiteBlockCenter"
+    }
+}
