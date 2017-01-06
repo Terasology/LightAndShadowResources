@@ -1,0 +1,10 @@
+{
+    "tiles" : {
+        "top" : "LightAndShadowResources:redFlagBlock",
+        "left" : "LightAndShadowResources:redCloverBlock",
+        "right" : "LightAndShadowResources:redDiamondBlock",
+        "front" : "LightAndShadowResources:redHeartBlock",
+        "back" : "LightAndShadowResources:redSpadeBlock",
+        "bottom" : "LightAndShadowResources: redFlagBlock"
+    }
+}
