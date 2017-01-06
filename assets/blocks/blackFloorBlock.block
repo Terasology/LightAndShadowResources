@@ -1,3 +1,5 @@
 {
-    "basedOn" : "lightAndShadowResources:flag"
+    "tiles" : {
+        "all" : "LightAndShadowResources:blackBlockFloor"
+    }
 }
