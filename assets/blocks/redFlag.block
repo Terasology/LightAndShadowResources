@@ -1,0 +1,8 @@
+{
+    "basedOn" : "lightAndShadowResources:flag",
+    "tiles" : {
+        "sides" : "LightAndShadowResources:redFlagSides",
+        "top" : "LightAndShadowResources:flagTop",
+        "bottom" : "LightAndShadowResources:redFlagBottom"
+    }
+}
