@@ -1,6 +1,6 @@
       {
       "StructureTemplate" : {
-        "type": "Structure:Prison",
+        "type": "Structure:Tao",
         "front": "FRONT",
         "spawnChance": 100
       }
