@@ -1,0 +1,25 @@
+{
+  "DisplayName": {
+    "name": "Hearts Ace"
+  },
+  "Card" : {
+    "topBlockFamily" : "heartsAceTop",
+    "bottomBlockFamily" : "heartsAceBottom"
+  },
+  "Health" : {
+    "currentHealth" : 4,
+    "maxHealth" : 4,
+    "regenRate" : 4,
+    "waitBeforeRegen" : 1,
+    "destroyEntityOnNoHealth": true
+  },
+  "BlockDropGrammar": {
+    "itemDrops": [
+      "LightAndShadowResources:heartsAce"
+    ]
+  },
+  "ActAsBlock": {
+    "block": "LightAndShadowResources:heartsAceTop"
+  },
+  "Network": {}
+}

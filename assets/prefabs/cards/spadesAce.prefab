@@ -1,0 +1,32 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Spades Ace"
+    },
+    "Item" : {
+        "name" : "Spades Ace",
+        "icon" : "LightAndShadowResources:items#diamond",
+        "stackId" : "spadesAce",
+        "consumedOnUse" : false,
+        "usage" : "ON_BLOCK"
+    },
+    "Card" : {
+        "topBlockFamily" : "spadesAceTop",
+        "bottomBlockFamily" : "spadesAceBottom",
+        "cardBlockPrefab": "LightAndShadowResources:spadesAceBlock"
+    },
+    "Health" : {
+        "currentHealth" : 64,
+        "maxHealth" : 64,
+        "regenRate" : 4,
+        "waitBeforeRegen" : 1
+    },
+    "BlockDropGrammar": {
+        "itemDrops": [
+            "LightAndShadowResources:spadesAce"
+        ]
+    },
+    "ActAsBlock": {
+        "block": "LightAndShadowResources:spadesAceTop"
+    }
+}

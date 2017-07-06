@@ -1,0 +1,25 @@
+{
+  "DisplayName": {
+    "name": "Diamonds Ace"
+  },
+  "Card" : {
+    "topBlockFamily" : "diamondsAceTop",
+    "bottomBlockFamily" : "diamondsAceBottom"
+  },
+  "Health" : {
+    "currentHealth" : 4,
+    "maxHealth" : 4,
+    "regenRate" : 4,
+    "waitBeforeRegen" : 1,
+    "destroyEntityOnNoHealth": true
+  },
+  "BlockDropGrammar": {
+    "itemDrops": [
+      "LightAndShadowResources:diamondsAce"
+    ]
+  },
+  "ActAsBlock": {
+    "block": "LightAndShadowResources:diamondsAceTop"
+  },
+  "Network": {}
+}

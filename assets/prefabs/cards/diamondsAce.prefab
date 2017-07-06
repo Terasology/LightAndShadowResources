@@ -1,4 +1,8 @@
 {
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Diamonds Ace"
+    },
     "Item" : {
         "name" : "Diamonds Ace",
         "icon" : "LightAndShadowResources:items#diamond",
@@ -8,12 +12,21 @@
     },
     "Card" : {
         "topBlockFamily" : "diamondsAceTop",
-        "bottomBlockFamily" : "diamondsAceBottom"
+        "bottomBlockFamily" : "diamondsAceBottom",
+        "cardBlockPrefab": "LightAndShadowResources:diamondsAceBlock"
     },
     "Health" : {
         "currentHealth" : 64,
         "maxHealth" : 64,
         "regenRate" : 4,
         "waitBeforeRegen" : 1
+    },
+    "BlockDropGrammar": {
+        "itemDrops": [
+            "LightAndShadowResources:diamondsAce"
+        ]
+    },
+    "ActAsBlock": {
+        "block": "LightAndShadowResources:diamondsAceTop"
     }
 }
