@@ -4,29 +4,31 @@
     "texture": "core:fx_smoke"
   },
   "positionRangeGenerator": {
-    "minPosition": [-4, -4, -4],
-    "maxPosition": [ 4,  4,  4]
+    "minPosition": [-0.5, -0.5, -0.5],
+    "maxPosition": [ 0.5,  0.5,  0.5]
   },
   "energyRangeGenerator": {
-    "minEnergy": 0.25,
-    "maxEnergy": 1.75
+    "minEnergy": 0.75,
+    "maxEnergy": 1.00
+  },
+  "accelerationAffector": {
+    "acceleration": [0, -10, 0]
   },
   "velocityRangeGenerator": {
-    "minVelocity": [-4, -4, -4],
-    "maxVelocity": [ 4,  4,  4]
+    "minVelocity": [-2.5, -2.5, -2.5],
+    "maxVelocity": [ 2.5,  2.5,  2.5]
   },
   "velocityAffector": {},
   "scaleRangeGenerator": {
-    "minScale": [0.05, 0.05, 0.05],
-    "maxScale": [ 0.1,  0.1,  0.1]
+    "minScale": [0.2, 0.2, 0.2],
+    "maxScale": [0.4, 0.4, 0.4]
   },
   "particleEmitter": {
-    "maxParticles": 64,
-    "particleSpawnsLeft": 64,
-    "lifeTime": 2,
-    "spanwRateMin": 24,
+    "maxParticles": 8,
+    "particleSpawnsLeft": 0,
+    "spawnRateMin": 24,
     "spawnRateMax": 40,
     "particleCollision": false,
-    "destroyEntityWhenDead": true
+    "destroyEntityWhenDead": false
   }
 }
