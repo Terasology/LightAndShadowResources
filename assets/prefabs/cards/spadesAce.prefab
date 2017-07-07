@@ -5,7 +5,7 @@
     },
     "Item" : {
         "name" : "Spades Ace",
-        "icon" : "LightAndShadowResources:items#diamond",
+        "icon" : "LightAndShadowResources:items#spade",
         "stackId" : "spadesAce",
         "consumedOnUse" : false,
         "usage" : "ON_BLOCK"
