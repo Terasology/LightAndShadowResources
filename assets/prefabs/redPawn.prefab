@@ -15,6 +15,7 @@
     },
     "Walk" :{
         "animationPool": ["pawnWalk"]
-    }
+    },
+    "MinionWork": {}
 }
 
