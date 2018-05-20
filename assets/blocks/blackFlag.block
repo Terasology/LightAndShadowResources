@@ -6,5 +6,11 @@
         "front" : "LightAndShadowResources:blackHeartBlock",
         "back" : "LightAndShadowResources:blackSpadeBlock",
         "bottom" : "LightAndShadowResources: blackFlagBlock"
+    },
+    "entity" : {
+        "prefab" : "flag"
+    },
+    "inventory" : {
+        "directPickup" : true
     }
 }
