@@ -9,7 +9,7 @@
         "bottom" : "LightAndShadowResources: blackFlagBlock"
     },
     "entity" : {
-        "prefab" : "flag"
+        "prefab" : "blackFlag"
     },
     "inventory" : {
         "directPickup" : true

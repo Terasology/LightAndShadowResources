@@ -9,7 +9,7 @@
         "bottom" : "LightAndShadowResources: redFlagBlock"
     },
     "entity" : {
-        "prefab" : "flag"
+        "prefab" : "redFlag"
     },
     "inventory" : {
         "directPickup" : true
