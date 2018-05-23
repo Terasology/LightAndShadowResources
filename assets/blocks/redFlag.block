@@ -1,4 +1,5 @@
 {
+    "hardness": 1,
     "tiles" : {
         "top" : "LightAndShadowResources:redFlagBlock",
         "left" : "LightAndShadowResources:redCloverBlock",
@@ -6,5 +7,11 @@
         "front" : "LightAndShadowResources:redHeartBlock",
         "back" : "LightAndShadowResources:redSpadeBlock",
         "bottom" : "LightAndShadowResources: redFlagBlock"
+    },
+    "entity" : {
+        "prefab" : "redFlag"
+    },
+    "inventory" : {
+        "directPickup" : true
     }
 }
