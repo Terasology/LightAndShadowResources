@@ -1,7 +1,7 @@
 {
     "template" : true,
     "shape" : "core:door",
-    "rotation" : "horizontal",
+    "family" : "horizontal",
     "attachmentAllowed" : true,
     "craftPlace" : false
 }

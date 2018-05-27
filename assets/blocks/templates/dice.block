@@ -1,7 +1,7 @@
 {
     "categories" : ["dice"],
     "hardness": 1,
-    "rotation" : "all",
+    "family" : "all",
     "entity" : {
         "prefab" : "dice"
     }

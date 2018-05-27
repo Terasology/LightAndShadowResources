@@ -2,7 +2,7 @@
     "template" : true,
     "hardness" : 1,
     "attachmentAllowed" : false,
-    "rotation" : "horizontal",
+    "family" : "horizontal",
     "climbable" : true,
     "penetrable" : false,
     "shape" : "engine:verticalOffsetPlane",
