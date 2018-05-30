@@ -1,7 +1,6 @@
 {
     "attachmentAllowed" : false,
-    "rotation" : "horizontal",
-    // Graphics
+    "family" : "horizontal",
     "tiles" : {
         "sides" : "core:ChestSides",
         "front" : "LightAndShadowResources:RedPawnBox",
