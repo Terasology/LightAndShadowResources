@@ -1,0 +1,6 @@
+{
+    "parent": "dice",
+    "LASTeam" : {
+        "team" : "red"
+    }
+}
