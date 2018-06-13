@@ -1,0 +1,6 @@
+{
+    "basedOn" : "lightAndShadowResources:baseStone",
+    "entity" : {
+        "prefab" : "blackBaseStone"
+    }
+}
