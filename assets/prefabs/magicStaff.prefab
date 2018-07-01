@@ -4,7 +4,8 @@
         "name" : "Magic Staff"
     },
     "Item" : {
-        "icon" : "LightAndShadowResources:magicStaff#magicStaff"
+        "icon" : "LightAndShadowResources:magicStaff",
+        "usage": "IN_DIRECTION"
     },
     "RaycastOnActivate": {}
 }
