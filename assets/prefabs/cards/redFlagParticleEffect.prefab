@@ -25,11 +25,11 @@
   },
   "particleEmitter": {
     "maxParticles": 64,
-    "lifeTime": 20,
+    "lifeTime": -1,
     "particleSpawnsLeft": 100,
     "spawnRateMin": 256,
     "spawnRateMax": 512,
     "particleCollision": false,
-    "destroyEntityWhenDead": true
+    "destroyEntityWhenDead": false
   }
 }
