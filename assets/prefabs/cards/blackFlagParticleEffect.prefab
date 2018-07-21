@@ -31,5 +31,6 @@
     "spawnRateMax": 512,
     "particleCollision": false,
     "destroyEntityWhenDead": false
-  }
+  },
+  "spadesParticle": {}
 }
