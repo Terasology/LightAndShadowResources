@@ -1,0 +1,16 @@
+{
+    "location" : {},
+    "skeletalmesh" : {
+        "mesh" : "pawn",
+        "heightOffset" : -0.8,
+        "material" : "redPawnSkin",
+        "animation" : "pawnStill",
+        "loop" : true
+    },
+    "Stand" :{
+        "animationPool": ["pawnStill"]
+    },
+    "Walk" :{
+        "animationPool": ["pawnWalk"]
+    }
+}
