@@ -3,7 +3,7 @@
     "skeletalmesh" : {
         "mesh" : "pawn",
         "heightOffset" : -0.8,
-        "material" : "redPawnSkin",
+        "material" : "redPawnPlayerSkin",
         "animation" : "pawnStill",
         "loop" : true
     },
