@@ -1,5 +1,6 @@
 {
     "basedOn" : "lightAndShadowResources:baseStone",
+    "tile" : "lightAndShadowResources:blackTowerStone",
     "entity" : {
         "prefab" : "blackBaseStone"
     }
