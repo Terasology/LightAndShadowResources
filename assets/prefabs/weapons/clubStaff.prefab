@@ -1,16 +1,16 @@
 {
-    "parent": "CombatSystem:weapon",
-	"DisplayName": {
-		"name": "DoT Staff"
-	},
-	"Item": {
-		"icon": "LightAndShadowResources:clubStaff",
-		"usage": "IN_DIRECTION",
-		"cooldownTime": 1000
-	},
-	"LaunchEntity": {
-        "launchEntityPrefab":"LightAndShadowResources:clubProjectile",
-		"impulse" : 200
-    },
-	"RenderItemIconMesh": {}
+  "parent": "CombatSystem:weapon",
+  "DisplayName": {
+    "name": "DoT Staff"
+  },
+  "Item": {
+    "icon": "LightAndShadowResources:clubStaff",
+    "usage": "IN_DIRECTION",
+    "cooldownTime": 1000
+  },
+  "LaunchEntity": {
+    "launchEntityPrefab": "LightAndShadowResources:clubProjectile",
+    "impulse": 200
+  },
+  "RenderItemIconMesh": {}
 }
