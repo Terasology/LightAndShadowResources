@@ -1,6 +1,6 @@
 {
     "template" : true,
-    "shape" : "core:door",
+    "shape" : "CoreAssets:door",
     "family" : "horizontal",
     "attachmentAllowed" : true,
     "craftPlace" : false

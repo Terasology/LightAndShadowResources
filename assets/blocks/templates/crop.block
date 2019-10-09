@@ -1,6 +1,6 @@
 {
     "template" : true,
-    "basedOn" : "core:plant",
+    "basedOn" : "CoreAssets:plant",
     "replacementAllowed" : false,
     "attachmentAllowed" : true
 }

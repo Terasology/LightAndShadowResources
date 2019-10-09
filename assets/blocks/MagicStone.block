@@ -2,7 +2,7 @@
  * Indestructible stone
  */
 {
-    "basedOn" : "core:Stone",
+    "basedOn" : "CoreBlocks:Stone",
     "hardness" : 0,
     "shadowCasting" : false
 }

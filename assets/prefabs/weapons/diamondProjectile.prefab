@@ -13,7 +13,7 @@
     "material": "CombatSystem:fireBall"
   },
   "Explode": {
-    "explosionPrefab": "core:dustEffect"
+    "explosionPrefab": "CoreAssets:dustEffect"
   },
   "Light": {},
   "Trigger": {
