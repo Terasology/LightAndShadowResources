@@ -59,15 +59,15 @@
         "region": { "min": [0, 0, -1], "size": [2, 3, 2] }
       },
       {
-        "blockType": "core:TallGrass1",
+        "blockType": "engine:air",
         "region": { "min": [-2, 0, -4], "size": [1, 1, 1] }
       },
       {
-        "blockType": "core:TallGrass2",
+        "blockType": "engine:air",
         "region": { "min": [4, 0, -4], "size": [1, 1, 1] }
       },
       {
-        "blockType": "core:TallGrass3",
+        "blockType": "engine:air",
         "region": { "min": [-3, 0, -2], "size": [1, 1, 1] }
       },
       {
