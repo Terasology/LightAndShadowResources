@@ -3,5 +3,5 @@
     "shadowCasting" : false,
     "hardness" : 0,
     "doubleSided" : true,
-    "tile" : "Core:Glass"
+    "tile" : "CoreAssets:Glass"
 }
