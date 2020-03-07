@@ -5,7 +5,7 @@
     "displayName" : "LightAndShadowResources",
     "description" : "Art resources module for Light & Shadow, a.k.a. LASR!",
     "dependencies" : [
-        {"id" : "Core", "minVersion" : "2.0.0"},
+        {"id" : "Core", "minVersion" : "3.0.0"},
         {"id" : "CoreBlocks", "minVersion" : "1.0.0"},
         {"id" : "CombatSystem", "minVersion" : "0.1.1"}
     ],
