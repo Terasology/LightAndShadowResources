@@ -22,7 +22,7 @@
     "waitBeforeRegen" : 1,
     "destroyEntityOnNoHealth": true
   },
-  "BlockDropGrammar": {
+  "DropGrammar": {
     "itemDrops": [
       "LightAndShadowResources:clubsAce"
     ]
