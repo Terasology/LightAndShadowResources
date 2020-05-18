@@ -2,7 +2,7 @@
  * Indestructible planks
  */
 {
-    "basedOn" : "CoreBlocks:Plank",
+    "basedOn" : "CoreAssets:Plank",
     "hardness" : 0,
     "shadowCasting" : false
 }

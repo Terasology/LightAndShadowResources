@@ -1,13 +1,14 @@
 {
-    "id" : "LightAndShadowResources",
-    "version" : "0.2.2-SNAPSHOT",
-    "author" : "glasz, SuperSnark, Skaldarnar, msteiger, smsunarto",
-    "displayName" : "LightAndShadowResources",
-    "description" : "Art resources module for Light & Shadow, a.k.a. LASR!",
-    "dependencies" : [
-        {"id" : "Core", "minVersion" : "3.0.0"},
-        {"id" : "CoreBlocks", "minVersion" : "1.0.0"},
-        {"id" : "CombatSystem", "minVersion" : "0.1.1"}
+    "id": "LightAndShadowResources",
+    "version": "1.0.0",
+    "author": "glasz, SuperSnark, Skaldarnar, msteiger, smsunarto",
+    "displayName": "Light & Shadow - Resources",
+    "description": "Art resources module for Light & Shadow, a.k.a. LASR!",
+    "dependencies": [
+        { "id": "CoreAssets", "minVersion": "2.0.1" },
+        { "id": "CombatSystem", "minVersion": "1.0.0" },
+        { "id": "Drops", "minVersion": "1.0.1" }
     ],
-    "isServerSideOnly" : false
+    "isServerSideOnly": false,
+    "isAsset": true
 }
