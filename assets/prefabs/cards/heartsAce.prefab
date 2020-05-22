@@ -21,7 +21,7 @@
         "regenRate" : 4,
         "waitBeforeRegen" : 1
     },
-    "BlockDropGrammar": {
+    "DropGrammar": {
         "itemDrops": [
             "LightAndShadowResources:heartsAce"
         ]

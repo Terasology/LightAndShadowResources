@@ -1,6 +1,7 @@
 * text=auto eol=lf
 
 *.png  binary
-*.jpg  binary
+*.ogg  binary
+*.TTF  binary
 
 gradlew text eol=lf
