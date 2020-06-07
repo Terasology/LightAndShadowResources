@@ -1,0 +1,14 @@
+{
+    "texture": "LightAndShadowResources:icons",
+    "textureSize": [256, 256],
+    "grid": {
+        "tileSize": [9, 9],
+        "gridDimensions": [12, 3],
+        "gridOffset": [16, 0],
+        "tileNames": [
+            "circleOutline", "spadesOutline", "", "", "circle", "spades", "", "", "", "", "", "",
+            "", "", "", "", "", "", "", "", "", "", "", "",
+            "", "", "", "", "", "", "", "", "", "", "", ""
+        ]
+    }
+}

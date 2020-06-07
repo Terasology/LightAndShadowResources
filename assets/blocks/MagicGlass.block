@@ -1,0 +1,7 @@
+{
+    "translucent" : true,
+    "shadowCasting" : false,
+    "hardness" : 0,
+    "doubleSided" : true,
+    "tile" : "CoreAssets:Glass"
+}

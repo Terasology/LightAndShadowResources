@@ -1,0 +1,11 @@
+{
+    "parent" : "engine:iconItem",
+    "DisplayName" : {
+        "name" : "Magic Staff"
+    },
+    "Item" : {
+        "icon" : "LightAndShadowResources:magicStaff",
+        "usage": "IN_DIRECTION"
+    },
+    "RaycastOnActivate": {}
+}

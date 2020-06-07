@@ -1,11 +1,10 @@
 {
     "attachmentAllowed" : false,
-    "rotation" : "horizontal",
-    // Graphics
+    "family" : "horizontal",
     "tiles" : {
-        "sides" : "core:ChestSides",
+        "sides" : "CoreAssets:ChestSides",
         "front" : "LightAndShadowResources:RedPawnBox",
-        "topBottom" : "core:ChestTopBottom"
+        "topBottom" : "CoreAssets:ChestTopBottom"
     },
     "entity" : {
         "prefab" : "LightAndShadowResources:SimpleRedPawnBox"

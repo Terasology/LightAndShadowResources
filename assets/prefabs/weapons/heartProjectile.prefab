@@ -1,0 +1,27 @@
+{
+  "parent": "CombatSystem:basicShoot",
+  "Hurting": {
+    "amount": 3,
+    "hurtingType": "attract"
+  },
+  "BoxShape": {
+    "extents": [0.5, 0.5, 1]
+  },
+  "Mesh": {
+    "mesh": "CombatSystem:ballSpell",
+    "material": "CombatSystem:fireBall"
+  },
+  "Explode": {
+    "explosionPrefab": "CoreAssets:dustEffect"
+  },
+  "Light": {},
+  "Trigger": {
+    "collisionGroup": "engine:all",
+    "detectGroups": [
+      "engine:world",
+      "engine:character",
+      "engine:default",
+      "engine:sensor"
+    ]
+  }
+}

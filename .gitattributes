@@ -1,0 +1,7 @@
+* text=auto eol=lf
+
+*.png  binary
+*.ogg  binary
+*.TTF  binary
+
+gradlew text eol=lf

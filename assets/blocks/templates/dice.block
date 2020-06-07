@@ -1,0 +1,8 @@
+{
+    "categories" : ["dice"],
+    "hardness": 1,
+    "family" : "all",
+    "entity" : {
+        "prefab" : "dice"
+    }
+}

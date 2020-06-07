@@ -1,0 +1,32 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Hearts Ace"
+    },
+    "Item" : {
+        "name" : "Hearts Ace",
+        "icon" : "LightAndShadowResources:items#heart",
+        "stackId" : "heartsAce",
+        "consumedOnUse" : false,
+        "usage" : "ON_BLOCK"
+    },
+    "Card" : {
+        "topBlockFamily" : "heartsAceTop",
+        "bottomBlockFamily" : "heartsAceBottom",
+        "cardBlockPrefab": "LightAndShadowResources:heartsAceBlock"
+    },
+    "Health" : {
+        "currentHealth" : 64,
+        "maxHealth" : 64,
+        "regenRate" : 4,
+        "waitBeforeRegen" : 1
+    },
+    "DropGrammar": {
+        "itemDrops": [
+            "LightAndShadowResources:heartsAce"
+        ]
+    },
+    "ActAsBlock": {
+        "block": "LightAndShadowResources:heartsAceTop"
+    }
+}
