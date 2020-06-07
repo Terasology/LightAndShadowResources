@@ -1,0 +1,18 @@
+{
+  "RenderEntities": {
+    "entities": {
+      "LightAndShadowResources:yin": {
+        "itemSize": 0.25
+      },
+      "LightAndShadowResources:yang": {
+        "itemSize": 0.25
+      }
+    }
+  },
+  "AnimateRotation": {
+    "yawSpeed": 0.011,
+    "pitchSpeed": 0.012,
+    "rollSpeed": 0.013,
+    "isSynchronized": false
+  }
+}

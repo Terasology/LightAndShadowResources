@@ -7,7 +7,8 @@
     "dependencies": [
         { "id": "CoreAssets", "minVersion": "2.0.1" },
         { "id": "CombatSystem", "minVersion": "1.0.0" },
-        { "id": "Drops", "minVersion": "1.0.1" }
+        { "id": "Drops", "minVersion": "1.0.1" },
+        { "id": "ItemRendering", "minVersion": "1.1.0" }
     ],
     "isServerSideOnly": false,
     "isAsset": true
