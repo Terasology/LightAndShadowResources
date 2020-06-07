@@ -1,0 +1,13 @@
+{
+  "MagicDome": {
+    "hitSound" : "LightAndShadowResources:magicDomeSwoosh"
+  },
+  "Location" : {
+    "scale" : 20
+  },
+  "Mesh" : {
+    "mesh" : "LightAndShadowResources:zesphere",
+    "material" : "LightAndShadowResources:magicDome",
+    "translucent" : true
+  }
+}

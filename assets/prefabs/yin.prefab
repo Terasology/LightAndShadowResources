@@ -9,8 +9,7 @@
     "material": "LightAndShadowResources:yin"
   },
   "AnimateRotation": {
-    "yaw": "CLOCKWISE_90",
-    "speed": 1.5,
+    "yawSpeed": 1.5,
     "isSynchronized": true
   }
 }

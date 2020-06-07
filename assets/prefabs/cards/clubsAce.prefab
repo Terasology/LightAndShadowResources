@@ -1,0 +1,33 @@
+{
+  "parent": "engine:iconItem",
+  "DisplayName": {
+    "name": "Clubs Ace"
+  },
+  "Item" : {
+    "name" : "Clubs Ace",
+    "icon" : "LightAndShadowResources:items#club",
+    "stackId" : "clubsAce",
+    "consumedOnUse" : false,
+    "usage" : "ON_BLOCK"
+  },
+  "Card" : {
+    "topBlockFamily" : "clubsAceTop",
+    "bottomBlockFamily" : "clubsAceBottom",
+    "cardBlockPrefab": "LightAndShadowResources:clubsAceBlock"
+  },
+  "Health" : {
+    "currentHealth" : 64,
+    "maxHealth" : 64,
+    "regenRate" : 4,
+    "waitBeforeRegen" : 1,
+    "destroyEntityOnNoHealth": true
+  },
+  "DropGrammar": {
+    "itemDrops": [
+      "LightAndShadowResources:clubsAce"
+    ]
+  },
+  "ActAsBlock": {
+    "block": "LightAndShadowResources:clubsAceTop"
+  }
+}

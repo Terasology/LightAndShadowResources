@@ -6,7 +6,7 @@
         ]
     },
     "PlaySoundAction" : {
-        sounds = "engine:click"
+        "sounds" : "engine:click"
     },
     "Spawner" : {
         "prefabs" : ["redPawn", "redFool", "redKing", "redKnight", "redQueen", "redRook" ],

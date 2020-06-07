@@ -1,0 +1,7 @@
+{
+    "hardness" : 0,
+    "tile" : "CoreAssets:HardStone",
+    "entity" : {
+        "prefab" : "baseStone"
+    }
+}

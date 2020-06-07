@@ -1,0 +1,8 @@
+{
+  "entity": {
+    "prefab": "LightAndShadowResources:yinYang",
+    "keepActive": true
+  },
+  "invisible": true,
+  "translucent": true
+}

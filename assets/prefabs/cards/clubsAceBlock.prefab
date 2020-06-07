@@ -1,0 +1,25 @@
+{
+  "DisplayName": {
+    "name": "Clubs Ace"
+  },
+  "Card" : {
+    "topBlockFamily" : "clubsAceTop",
+    "bottomBlockFamily" : "clubsAceBottom"
+  },
+  "Health" : {
+    "currentHealth" : 4,
+    "maxHealth" : 4,
+    "regenRate" : 4,
+    "waitBeforeRegen" : 1,
+    "destroyEntityOnNoHealth": true
+  },
+  "DropGrammar": {
+    "itemDrops": [
+      "LightAndShadowResources:clubsAce"
+    ]
+  },
+  "ActAsBlock": {
+    "block": "LightAndShadowResources:clubsAceTop"
+  },
+  "Network": {}
+}
