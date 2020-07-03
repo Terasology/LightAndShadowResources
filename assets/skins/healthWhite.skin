@@ -4,8 +4,8 @@
         "UIIconBar": {
             "parts": {
                 "icon": {
-                    "fixed-width": 16,
-                    "fixed-height": 16
+                    "fixed-width": 30,
+                    "fixed-height": 30
                 }
             }
         }
