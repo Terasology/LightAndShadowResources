@@ -1,5 +1,5 @@
 {
-    "inherit": "LightAndShadowResources:healthHud",
+    "inherit": "healthBase",
     "elements": {
         "UIIconBar": {
             "parts": {

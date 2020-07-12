@@ -1,0 +1,13 @@
+{
+    "inherit": "default",
+    "elements": {
+        "UIIconBar": {
+            "parts": {
+                "icon": {
+                    "fixed-width": 30,
+                    "fixed-height": 30
+                }
+            }
+        }
+    }
+}
