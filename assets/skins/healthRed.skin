@@ -1,5 +1,5 @@
 {
-    "inherit": "LightAndShadow:healthHud",
+    "inherit": "LightAndShadowResources:healthHud",
     "families": {
         "healthBar": {
             "elements": {
