@@ -1,5 +1,15 @@
 {
     "inherit": "LightAndShadowResources:healthHud",
+    "elements": {
+        "UIIconBar": {
+            "parts": {
+                "icon": {
+                    "fixed-width": 30,
+                    "fixed-height": 30
+                }
+            }
+        }
+    },
     "families": {
         "healthBar": {
             "elements": {
