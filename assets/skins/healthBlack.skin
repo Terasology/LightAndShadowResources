@@ -1,15 +1,5 @@
 {
-    "inherit": "default",
-    "elements": {
-        "UIIconBar": {
-            "parts": {
-                "icon": {
-                    "fixed-width": 16,
-                    "fixed-height": 16
-                }
-            }
-        }
-    },
+    "inherit": "healthBase",
     "families": {
         "healthBar": {
             "elements": {
