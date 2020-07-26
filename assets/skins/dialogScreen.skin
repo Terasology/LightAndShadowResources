@@ -21,6 +21,9 @@
                     "text-color": "FFFFFFFF"
                 }
             }
+        },
+        "ScrollableArea": {
+            "background": ""
         }
     }
 }
