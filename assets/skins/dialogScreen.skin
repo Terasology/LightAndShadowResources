@@ -21,6 +21,15 @@
                     "text-color": "FFFFFFFF"
                 }
             }
+        },
+        "UIBox": {
+            "background": "whiteBackground",
+            "background-border": {
+                "top": 16,
+                "bottom": 16,
+                "left": 16,
+                "right": 16
+            }
         }
     }
 }
