@@ -21,6 +21,9 @@
                     "text-color": "FFFFFFFF"
                 }
             }
+        },
+        "BrowserWidget": {
+            "text-color": "0000ff"
         }
     }
 }
