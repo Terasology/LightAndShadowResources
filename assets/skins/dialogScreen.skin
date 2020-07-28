@@ -24,6 +24,8 @@
         },
         "BrowserWidget": {
             "text-color": "000000ff"
+        "ScrollableArea": {
+            "background": ""
         }
     }
 }
