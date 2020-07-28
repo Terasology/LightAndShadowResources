@@ -22,6 +22,15 @@
                 }
             }
         },
+        "UIBox": {
+            "background": "whiteBackground",
+            "background-border": {
+                "top": 16,
+                "bottom": 16,
+                "left": 16,
+                "right": 16
+            }
+        },
         "BrowserWidget": {
             "text-color": "000000ff"
         },
