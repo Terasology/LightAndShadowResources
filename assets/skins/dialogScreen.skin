@@ -36,6 +36,9 @@
         },
         "ScrollableArea": {
             "background": ""
+        },
+        "UIImage": {
+            "background": "heartsIcon"
         }
     }
 }
