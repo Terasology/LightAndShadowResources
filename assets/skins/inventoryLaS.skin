@@ -2,7 +2,7 @@
     "inherit": "default",
     "elements": {
         "InventoryCell": {
-            "background": "engine:area",
+            "background": "LightAndShadowResources:area",
             "background-border": {
                 "top": 4,
                 "bottom": 4,
@@ -17,7 +17,7 @@
             },
             "modes": {
                 "active": {
-                    "background": "engine:boxActive",
+                    "background": "LightAndShadowResources:boxActive",
                     "fixed-width": 70,
                     "fixed-height": 70
                 }
