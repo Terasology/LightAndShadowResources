@@ -3,6 +3,8 @@
     "elements": {
         "InventoryCell": {
             "background": "engine:area",
+            "fixed-width": 50,
+            "fixed-height": 50,
             "background-border": {
                 "top": 4,
                 "bottom": 4,
