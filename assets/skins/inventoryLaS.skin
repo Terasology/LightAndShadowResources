@@ -1,0 +1,45 @@
+{
+    "inherit": "default",
+    "elements": {
+        "InventoryCell": {
+            "background": "LightAndShadowResources:area",
+            "fixed-width": 70,
+            "fixed-height": 70,
+            "background-border": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+            },
+            "margin": {
+                "top": 4,
+                "bottom": 4,
+                "left": 4,
+                "right": 4
+            },
+            "modes": {
+                "active": {
+                    "background": "LightAndShadowResources:boxActive",
+                    "fixed-width": 90,
+                    "fixed-height": 90
+                }
+            }
+        },
+        "TransferItemCursor": {
+            "align-horizontal": "center",
+            "align-vertical": "top"
+        },
+        "ItemIcon": {
+            "fixed-width": 45,
+            "fixed-height": 45,
+            "texture-scale-mode": "scale fit",
+            "text-align-horizontal": "right",
+            "text-align-vertical": "bottom"
+        },
+        "UICrosshair": {
+            "background": "engine:gui#crosshair",
+            "fixed-width": 40,
+            "fixed-height": 40
+        }
+    }
+}

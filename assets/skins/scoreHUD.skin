@@ -1,0 +1,18 @@
+{
+    "font" : "lightAndShadowResources:WickedQueen",
+    "families" : {
+        "blackText" : {
+            "text-color" : "000000FF",
+            "text-shadowed" : true,
+            "text-shadow-color" : "FFFFFF6F"
+        },
+        "redText" : {
+            "text-color" : "C91D1DFF",
+            "text-shadowed" : true,
+            "text-shadow-color" : "000000AF"
+        },
+        "goalScoreText" : {
+            "text-shadowed" : true
+        }
+    }
+}
