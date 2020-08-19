@@ -1,5 +1,6 @@
 {
     "inherit": "default",
+    "background": "",
     "elements": {
         "UIScreenLayer": {
             "background-scale-mode": "stretch",
@@ -7,10 +8,49 @@
         },
         "UIButton": {
             "min-width": 128,
-            "min-height": 32
+            "min-height": 32,
+            "modes": {
+                "disabled": {
+                    "text-color": "AAAAAAFF"
+                },
+                "hover": {
+                    "background": "LightAndShadowResources:yin",
+                    "text-color": "FFFF00FF"
+                },
+                "down": {
+                    "background": "LightAndShadowResources:redFool",
+                    "text-color": "AAAA00FF"
+                }
+            }
         },
         "UILabel": {
-            "font" : "lightAndShadowResources:WickedQueen"
+            "font" : "lightAndShadowResources:WickedQueen",
+            "background": ""
+        },
+        "MigLayout": {
+            "background": ""
+        },
+        "ScrollableArea": {
+            "background": ""
+        },
+        "UIImage": {
+            "background": ""
+        },
+        "UISpace": {
+            "background": ""
+        },
+        "RowLayout": {
+            "background": ""
+        }
+    },
+    "families" : {
+        "outsideUIBox" : {
+            "background-scale-mode": "stretch",
+            "background": "engine:greyedBackground"
+        },
+        "detailsUIBox" : {
+            "background-scale-mode": "stretch",
+            "background": "engine:greyedBackground"
         }
     }
 }
