@@ -7,10 +7,12 @@
             "background": "engine:greyedBackground"
         },
         "UIButton": {
+            "font" : "lightAndShadowResources:WickedQueen",
             "min-width": 128,
             "min-height": 32,
             "modes": {
                 "disabled": {
+                    "background": "LightAndShadowResources:yin",
                     "text-color": "AAAAAAFF"
                 },
                 "hover": {
@@ -22,10 +24,6 @@
                     "text-color": "AAAA00FF"
                 }
             }
-        },
-        "UILabel": {
-            "font" : "lightAndShadowResources:WickedQueen",
-            "background": ""
         },
         "MigLayout": {
             "background": ""
@@ -41,16 +39,51 @@
         },
         "RowLayout": {
             "background": ""
+        },
+        "UIImage": {
+            "background": "engine:greyedBackground"
         }
     },
     "families" : {
+        "insideOutsideUIBox" : {
+            "font" : "lightAndShadowResources:WickedQueen",
+            "background-scale-mode": "tiled",
+            "background": "lightAndShadowResources:blackWhiteDiamonds"
+        },
         "outsideUIBox" : {
-            "background-scale-mode": "stretch",
+            "font" : "lightAndShadowResources:WickedQueen",
+            "background": "engine:greyedBackground"
+        },
+        "overOutsideUIBox" : {
+            "font" : "lightAndShadowResources:WickedQueen",
             "background": "engine:greyedBackground"
         },
         "detailsUIBox" : {
+            "font" : "lightAndShadowResources:WickedQueen",
             "background-scale-mode": "stretch",
-            "background": "engine:greyedBackground"
+            "background": "lightAndShadowResources:pokerMatScreenSkinBox"
+        },
+        "UIButtons" : {
+            "background": "LightAndShadowResources:yin"
+        },
+        "noBackground" : {
+            background": "",
+            "font" : "lightAndShadowResources:WickedQueen"
+        },
+        "spadesTeamLabel" : {
+            "font" : "lightAndShadowResources:WickedQueen",
+            "text-color" : "000000FF",
+            "text-shadowed" : true,
+            "text-shadow-color" : "FFFFFF6F"
+        },
+        "heartsTeamLabel" : {
+            "font" : "lightAndShadowResources:WickedQueen",
+            "text-color" : "C91D1DFF",
+            "text-shadowed" : true,
+            "text-shadow-color" : "000000AF"
+        },
+        "playerNames" : {
+            "font" : "engine:NotoSans-Regular"
         }
     }
 }
