@@ -7,26 +7,31 @@
             "background": "engine:greyedBackground"
         },
         "UIButton": {
-            "font" : "lightAndShadowResources:WickedQueen",
+            "font" : "engine:NotoSans-Regular",
+            "text-color": "E8E8E8FF",
             "min-width": 128,
             "min-height": 32,
             "modes": {
+                "available": {
+                    "background": "LightAndShadowResources:buttonRed",
+                    "text-shadowed" : true
+                },
                 "disabled": {
-                    "background": "LightAndShadowResources:yin",
+                    "background": "LightAndShadowResources:buttonRed",
+                    "text-shadowed" : true,
                     "text-color": "AAAAAAFF"
                 },
                 "hover": {
-                    "background": "LightAndShadowResources:yin",
-                    "text-color": "FFFF00FF"
+                    "background": "LightAndShadowResources:buttonRed",
+                    "text-shadowed" : true,
+                    "text-color": "AAAA00FF"
                 },
                 "down": {
-                    "background": "LightAndShadowResources:redFool",
+                    "background": "LightAndShadowResources:buttonRedPushed",
+                    "text-shadowed" : false,
                     "text-color": "AAAA00FF"
                 }
             }
-        },
-        "MigLayout": {
-            "background": ""
         },
         "ScrollableArea": {
             "background": ""
@@ -39,51 +44,75 @@
         },
         "RowLayout": {
             "background": ""
-        },
-        "UIImage": {
-            "background": "engine:greyedBackground"
         }
     },
     "families" : {
         "insideOutsideUIBox" : {
             "font" : "lightAndShadowResources:WickedQueen",
+            "text-color" : "000000FF",
             "background-scale-mode": "tiled",
-            "background": "lightAndShadowResources:blackWhiteDiamonds"
+            "background": ""
         },
         "outsideUIBox" : {
             "font" : "lightAndShadowResources:WickedQueen",
-            "background": "engine:greyedBackground"
+            "text-color" : "000000FF",
+            "background": "lightAndShadowResources:blackWhiteDiamonds8",
+            "background-border": {
+                "top": 4,
+                "bottom": 4,
+                "left": 4,
+                "right": 4
+            }
+        },
+        "darkerInnerBoxElement" : {
+            "background": "lightAndShadowResources:pokerMatScreenSkinBox5",
+            "background-border": {
+                "top": 4,
+                "bottom": 4,
+                "left": 4,
+                "right": 4
+            }
         },
         "overOutsideUIBox" : {
-            "font" : "lightAndShadowResources:WickedQueen",
-            "background": "engine:greyedBackground"
+            "font" : "lightAndShadowResources:WickedQueen-Size72",
+            "text-color": "000000FF",
+            "text-shadowed" : false,
+            "background": ""
         },
         "detailsUIBox" : {
             "font" : "lightAndShadowResources:WickedQueen",
-            "background-scale-mode": "stretch",
-            "background": "lightAndShadowResources:pokerMatScreenSkinBox"
+            "text-color" : "E8E8E8FF",
+            "background": "lightAndShadowResources:pokerMatScreenSkinBox4",
+            "background-border": {
+                "top": 4,
+                "bottom": 4,
+                "left": 4,
+                "right": 4
+            }
         },
         "UIButtons" : {
-            "background": "LightAndShadowResources:yin"
+            "background": "LightAndShadowResources:buttonRed"
         },
         "noBackground" : {
             background": "",
             "font" : "lightAndShadowResources:WickedQueen"
         },
         "spadesTeamLabel" : {
-            "font" : "lightAndShadowResources:WickedQueen",
+            "font" : "lightAndShadowResources:WickedQueen-Size48",
+            "background": "",
             "text-color" : "000000FF",
             "text-shadowed" : true,
-            "text-shadow-color" : "FFFFFF6F"
+            "text-shadow-color" : "FFFFFF0F"
         },
         "heartsTeamLabel" : {
-            "font" : "lightAndShadowResources:WickedQueen",
-            "text-color" : "C91D1DFF",
+            "font" : "lightAndShadowResources:WickedQueen-Size48",
+            "text-color" : "000000FF",
             "text-shadowed" : true,
-            "text-shadow-color" : "000000AF"
+            "text-shadow-color" : "FFFFFF0F"
         },
         "playerNames" : {
-            "font" : "engine:NotoSans-Regular"
+            "font" : "engine:NotoSans-Regular",
+            "background": ""
         }
     }
 }
