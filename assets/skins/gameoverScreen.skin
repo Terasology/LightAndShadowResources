@@ -8,19 +8,11 @@
         },
         "UIButton": {
             "font" : "engine:NotoSans-Regular",
+            "background": "LightAndShadowResources:buttonRed",
             "text-color": "E8E8E8FF",
             "min-width": 128,
             "min-height": 32,
             "modes": {
-                "available": {
-                    "background": "LightAndShadowResources:buttonRed",
-                    "text-shadowed" : true
-                },
-                "disabled": {
-                    "background": "LightAndShadowResources:buttonRed",
-                    "text-shadowed" : true,
-                    "text-color": "AAAAAAFF"
-                },
                 "hover": {
                     "background": "LightAndShadowResources:buttonRed",
                     "text-shadowed" : true,
@@ -90,9 +82,6 @@
                 "right": 4
             }
         },
-        "UIButtons" : {
-            "background": "LightAndShadowResources:buttonRed"
-        },
         "noBackground" : {
             background": "",
             "font" : "lightAndShadowResources:WickedQueen"
@@ -102,13 +91,13 @@
             "background": "",
             "text-color" : "000000FF",
             "text-shadowed" : true,
-            "text-shadow-color" : "FFFFFF0F"
+            "text-shadow-color" : "FFFFFF6F"
         },
         "heartsTeamLabel" : {
             "font" : "lightAndShadowResources:WickedQueen-Size48",
-            "text-color" : "000000FF",
+            "text-color" : "C91D1DFF",
             "text-shadowed" : true,
-            "text-shadow-color" : "FFFFFF0F"
+            "text-shadow-color" : "00000FF"
         },
         "playerNames" : {
             "font" : "engine:NotoSans-Regular",
