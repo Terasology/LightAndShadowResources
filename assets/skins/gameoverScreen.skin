@@ -45,7 +45,7 @@
         "outsideUIBox" : {
             "font" : "lightAndShadowResources:WickedQueen",
             "text-color" : "000000FF",
-            "background": "lightAndShadowResources:blackWhiteDiamonds8",
+            "background": "lightAndShadowResources:whiteBorderedBackground",
             "background-border": {
                 "top": 4,
                 "bottom": 4,
@@ -54,7 +54,7 @@
             }
         },
         "darkerInnerBoxElement" : {
-            "background": "lightAndShadowResources:pokerMatScreenSkinBox5",
+            "background": "lightAndShadowResources:3dBox",
             "background-border": {
                 "top": 4,
                 "bottom": 4,
@@ -71,7 +71,7 @@
         "detailsUIBox" : {
             "font" : "lightAndShadowResources:WickedQueen",
             "text-color" : "E8E8E8FF",
-            "background": "lightAndShadowResources:pokerMatScreenSkinBox4",
+            "background": "lightAndShadowResources:pokerMatScreenSkinBox",
             "background-border": {
                 "top": 4,
                 "bottom": 4,
