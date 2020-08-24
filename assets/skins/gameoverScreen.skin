@@ -88,7 +88,7 @@
             "text-shadow-color" : "00000FF"
         },
         "playerNames" : {
-            "font" : "engine:NotoSans-Regular",
+            "font" : "engine:NotoSans-Regular-Title",
             "background": ""
         }
     }
