@@ -1,6 +1,7 @@
 {
     "inherit": "default",
     "background": "",
+    "font" : "lightAndShadowResources:WickedQueen",
     "elements": {
         "UIScreenLayer": {
             "background-scale-mode": "stretch",
@@ -27,23 +28,15 @@
         },
         "ScrollableArea": {
             "background": ""
-        },
-        "UISpace": {
-            "background": ""
-        },
-        "RowLayout": {
-            "background": ""
         }
     },
     "families" : {
         "insideOutsideUIBox" : {
-            "font" : "lightAndShadowResources:WickedQueen",
             "text-color" : "000000FF",
             "background-scale-mode": "tiled",
             "background": ""
         },
         "outsideUIBox" : {
-            "font" : "lightAndShadowResources:WickedQueen",
             "text-color" : "000000FF",
             "background": "lightAndShadowResources:whiteBorderedBackground",
             "background-border": {
@@ -69,7 +62,6 @@
             "background": ""
         },
         "detailsUIBox" : {
-            "font" : "lightAndShadowResources:WickedQueen",
             "text-color" : "E8E8E8FF",
             "background": "lightAndShadowResources:pokerMatScreenSkinBox",
             "background-border": {
@@ -80,8 +72,7 @@
             }
         },
         "noBackground" : {
-            background": "",
-            "font" : "lightAndShadowResources:WickedQueen"
+            background": ""
         },
         "spadesTeamLabel" : {
             "font" : "lightAndShadowResources:WickedQueen-Size48",
