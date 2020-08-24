@@ -31,7 +31,10 @@
         }
     },
     "families" : {
-        "outsideUIBox" : {
+        "noBackground" : {
+            background": ""
+        },
+        "outerUIBox" : {
             "text-color" : "000000FF",
             "background": "lightAndShadowResources:whiteBorderedBackground",
             "background-border": {
@@ -41,7 +44,7 @@
                 "right": 4
             }
         },
-        "darkerInnerBoxElement" : {
+        "darkerBoxElement" : {
             "background": "lightAndShadowResources:3dBox",
             "background-border": {
                 "top": 4,
@@ -64,9 +67,6 @@
                 "left": 4,
                 "right": 4
             }
-        },
-        "noBackground" : {
-            background": ""
         },
         "spadesTeamLabel" : {
             "font" : "lightAndShadowResources:WickedQueen-Size48",
