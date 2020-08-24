@@ -31,11 +31,6 @@
         }
     },
     "families" : {
-        "insideOutsideUIBox" : {
-            "text-color" : "000000FF",
-            "background-scale-mode": "tiled",
-            "background": ""
-        },
         "outsideUIBox" : {
             "text-color" : "000000FF",
             "background": "lightAndShadowResources:whiteBorderedBackground",
@@ -55,11 +50,10 @@
                 "right": 4
             }
         },
-        "overOutsideUIBox" : {
+        "gameOverInfo" : {
             "font" : "lightAndShadowResources:WickedQueen-Size72",
             "text-color": "000000FF",
-            "text-shadowed" : false,
-            "background": ""
+            "text-shadowed" : false
         },
         "detailsUIBox" : {
             "text-color" : "E8E8E8FF",
@@ -76,7 +70,6 @@
         },
         "spadesTeamLabel" : {
             "font" : "lightAndShadowResources:WickedQueen-Size48",
-            "background": "",
             "text-color" : "000000FF",
             "text-shadowed" : true,
             "text-shadow-color" : "FFFFFF6F"
@@ -88,8 +81,7 @@
             "text-shadow-color" : "00000FF"
         },
         "playerNames" : {
-            "font" : "engine:NotoSans-Regular-Title",
-            "background": ""
+            "font" : "engine:NotoSans-Regular-Title"
         }
     }
 }
