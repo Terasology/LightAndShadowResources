@@ -82,6 +82,16 @@
         },
         "playerNames" : {
             "font" : "engine:NotoSans-Regular-Title"
+        },
+        "win" : {
+            "font" : "lightAndShadowResources:WickedQueen-Size72",
+            "text-color": "003867FF",
+            "text-shadowed" : false
+        },
+        "lose" : {
+            "font" : "lightAndShadowResources:WickedQueen-Size72",
+            "text-color": "670003FF",
+            "text-shadowed" : false
         }
     }
 }
