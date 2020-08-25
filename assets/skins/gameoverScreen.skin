@@ -90,7 +90,7 @@
         },
         "lose" : {
             "font" : "lightAndShadowResources:WickedQueen-Size72",
-            "text-color": "670003FF",
+            "text-color": "460067FF",
             "text-shadowed" : false
         }
     }
