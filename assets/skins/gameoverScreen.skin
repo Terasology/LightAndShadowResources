@@ -28,6 +28,12 @@
         },
         "ScrollableArea": {
             "background": ""
+        },
+        "UIImage": {
+            "background": ""
+        },
+        "RowLayout": {
+            "background": ""
         }
     },
     "families" : {
