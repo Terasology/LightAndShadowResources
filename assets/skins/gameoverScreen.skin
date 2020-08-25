@@ -1,16 +1,87 @@
 {
     "inherit": "default",
+    "background": "",
+    "font" : "lightAndShadowResources:WickedQueen",
     "elements": {
         "UIScreenLayer": {
             "background-scale-mode": "stretch",
             "background": "engine:greyedBackground"
         },
         "UIButton": {
+            "font" : "engine:NotoSans-Regular",
+            "background": "LightAndShadowResources:buttonRed",
+            "text-color": "E8E8E8FF",
             "min-width": 128,
-            "min-height": 32
+            "min-height": 32,
+            "modes": {
+                "hover": {
+                    "background": "LightAndShadowResources:buttonRed",
+                    "text-shadowed" : true,
+                    "text-color": "AAAA00FF"
+                },
+                "down": {
+                    "background": "LightAndShadowResources:buttonRedPushed",
+                    "text-shadowed" : false,
+                    "text-color": "AAAA00FF"
+                }
+            }
         },
-        "UILabel": {
-            "font" : "lightAndShadowResources:WickedQueen"
+        "ScrollableArea": {
+            "background": ""
+        }
+    },
+    "families" : {
+        "noBackground" : {
+            background": ""
+        },
+        "outerUIBox" : {
+            "text-color" : "000000FF",
+            "background": "lightAndShadowResources:whiteBorderedBackground",
+            "background-border": {
+                "top": 4,
+                "bottom": 4,
+                "left": 4,
+                "right": 4
+            }
+        },
+        "darkerBoxElement" : {
+            "background": "lightAndShadowResources:3dBox",
+            "background-border": {
+                "top": 4,
+                "bottom": 4,
+                "left": 4,
+                "right": 4
+            }
+        },
+        "gameOverInfo" : {
+            "font" : "lightAndShadowResources:WickedQueen-Size72",
+            "text-color": "000000FF",
+            "text-shadowed" : false
+        },
+        "detailsUIBox" : {
+            "text-color" : "E8E8E8FF",
+            "background": "lightAndShadowResources:pokerMatScreenSkinBox",
+            "background-border": {
+                "top": 4,
+                "bottom": 4,
+                "left": 4,
+                "right": 4
+            }
+        },
+        "spadesTeamLabel" : {
+            "font" : "lightAndShadowResources:WickedQueen-Size48",
+            "text-color" : "000000FF",
+            "text-shadowed" : true,
+            "text-shadow-color" : "FFFFFF6F"
+        },
+        "heartsTeamLabel" : {
+            "font" : "lightAndShadowResources:WickedQueen-Size48",
+            "text-color" : "C91D1DFF",
+            "text-shadowed" : true,
+            "text-shadow-color" : "00000FF"
+        },
+        "playerNames" : {
+            "font" : "engine:NotoSans-Regular-Title"
         }
     }
 }
