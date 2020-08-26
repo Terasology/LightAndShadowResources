@@ -28,6 +28,12 @@
         },
         "ScrollableArea": {
             "background": ""
+        },
+        "UIImage": {
+            "background": ""
+        },
+        "RowLayout": {
+            "background": ""
         }
     },
     "families" : {
@@ -82,6 +88,16 @@
         },
         "playerNames" : {
             "font" : "engine:NotoSans-Regular-Title"
+        },
+        "win" : {
+            "font" : "lightAndShadowResources:WickedQueen-Size72",
+            "text-color": "003867FF",
+            "text-shadowed" : false
+        },
+        "lose" : {
+            "font" : "lightAndShadowResources:WickedQueen-Size72",
+            "text-color": "460067FF",
+            "text-shadowed" : false
         }
     }
 }
