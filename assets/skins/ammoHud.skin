@@ -2,16 +2,10 @@
     "inherit": "default",
     "elements": {
         "InventoryCell": {
-            "background": "engine:area",
-            "fixed-width": 50,
-            "fixed-height": 50,
+            "background": "LightAndShadowResources:ammo",
+            "fixed-width": 60,
+            "fixed-height": 60,
             "background-border": {
-                "top": 4,
-                "bottom": 4,
-                "left": 4,
-                "right": 4
-            },
-            "margin": {
                 "top": 4,
                 "bottom": 4,
                 "left": 4,
