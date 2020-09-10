@@ -23,6 +23,11 @@
                     "background": "LightAndShadowResources:buttonRedPushed",
                     "text-shadowed" : false,
                     "text-color": "AAAA00FF"
+                },
+                "disabled": {
+                    "background": "lightAndShadowResources:3dBox",
+                    "text-shadowed" : false,
+                    "text-color": "E8E8E8FF"
                 }
             }
         },
