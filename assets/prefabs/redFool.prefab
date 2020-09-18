@@ -4,7 +4,7 @@
     "mesh": "fool",
     "heightOffset": -0.8,
     "material": "redFoolSkin",
-    "animation": "foolStill",
+    "animation": "fool#still",
     "loop": true
   },
   "Behavior": {
