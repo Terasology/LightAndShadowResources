@@ -27,7 +27,7 @@
                 "disabled": {
                     "background": "lightAndShadowResources:3dBox",
                     "text-shadowed" : false,
-                    "text-color": "E8E8E8FF"
+                    "text-color": "515A5AFF"
                 }
             }
         },
