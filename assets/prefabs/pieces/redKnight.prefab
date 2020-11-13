@@ -2,9 +2,14 @@
   "parent": "redMinion",
   "skeletalMesh": {
     "mesh": "knight",
-    "heightOffset": -0.8,
+    "heightOffset": -0.6,
     "material": "redKnightSkin",
-    "loop": true
+    "loop": true,
+    "scale": [
+      0.25,
+      0.25,
+      0.25
+    ]
   },
   "Behavior": {
     "tree": "attackBlack"
