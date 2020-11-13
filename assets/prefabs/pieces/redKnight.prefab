@@ -1,0 +1,18 @@
+{
+  "parent": "redMinion",
+  "skeletalMesh": {
+    "mesh": "knight",
+    "heightOffset": -0.8,
+    "material": "redKnightSkin",
+    "loop": true
+  },
+  "Behavior": {
+    "tree": "attackBlack"
+  },
+  "Walk": {
+    "animationPool": [
+      "knight#hop"
+    ]
+  }
+}
+
