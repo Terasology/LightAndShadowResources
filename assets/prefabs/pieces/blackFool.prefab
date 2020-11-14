@@ -1,23 +1,22 @@
 {
   "parent": "blackMinion",
-  "skeletalmesh": {
+  "skeletalMesh": {
     "mesh": "fool",
     "heightOffset": -0.8,
     "material": "blackFoolSkin",
-    "animation": "foolStill",
-    "loop": true
+    "loop": true,
+    "scale": [
+      1.3,
+      1.3,
+      1.3
+    ]
   },
   "Behavior": {
     "tree": "worker"
   },
-  "Stand": {
-    "animationPool": [
-      "foolStill"
-    ]
-  },
   "Walk": {
     "animationPool": [
-      "foolWalk"
+      "fool#hop01"
     ]
   },
   "MinionWork": {}

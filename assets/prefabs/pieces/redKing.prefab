@@ -1,0 +1,23 @@
+{
+  "parent": "redMinion",
+  "skeletalMesh": {
+    "mesh": "king",
+    "heightOffset": -0.8,
+    "material": "redKingSkin",
+    "loop": true,
+    "scale": [
+      1.45,
+      1.45,
+      1.45
+    ]
+  },
+  "Behavior": {
+    "tree": "attackBlack"
+  },
+  "Walk": {
+    "animationPool": [
+      "king#walk01"
+    ]
+  }
+}
+

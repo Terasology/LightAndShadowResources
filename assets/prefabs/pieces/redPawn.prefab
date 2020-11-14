@@ -1,0 +1,29 @@
+{
+  "parent": "redMinion",
+  "skeletalMesh": {
+    "mesh": "pawn",
+    "heightOffset": -0.8,
+    "material": "redPawnSkin",
+    "loop": true,
+    "scale": [
+      0.75,
+      0.75,
+      0.75
+    ]
+  },
+  "Behavior": {
+    "tree": "worker"
+  },
+  "Walk": {
+    "animationPool": [
+      "pawn#hop"
+    ]
+  },
+  "MeleeAttack": {
+    "animationPool": [
+      "pawn#hit"
+    ]
+  },
+  "MinionWork": {}
+}
+
