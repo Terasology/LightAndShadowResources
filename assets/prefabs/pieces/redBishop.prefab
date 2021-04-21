@@ -1,0 +1,18 @@
+{
+  "parent": "redMinion",
+  "skeletalMesh": {
+    "mesh": "bishop",
+    "heightOffset": -0.8,
+    "material": "redBishopSkin",
+    "loop": true
+  },
+  "Behavior": {
+    "tree": "attackBlack"
+  },
+  "Walk": {
+    "animationPool": [
+      "bishop#walk"
+    ]
+  }
+}
+

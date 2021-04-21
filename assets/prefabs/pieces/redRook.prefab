@@ -1,0 +1,23 @@
+{
+  "parent": "redMinion",
+  "skeletalMesh": {
+    "mesh": "rook",
+    "heightOffset": 0.7,
+    "material": "redRookSkin",
+    "loop": true,
+    "scale": [
+      3.0,
+      3.0,
+      3.0
+    ]
+  },
+  "Behavior": {
+    "tree": "attackBlack"
+  },
+  "Walk": {
+    "animationPool": [
+      "rook#walk"
+    ]
+  }
+}
+
