@@ -3,7 +3,7 @@
         "maxTeamSizeDifference" : 3
     },
     "GameState" : {
-            "redTeamCount" : 0,
-            "blackTeamCount" : 0
-        }
+        "redTeamCount" : 0,
+        "blackTeamCount" : 0
+    }
 }
