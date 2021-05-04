@@ -1,0 +1,9 @@
+{
+    "LASConfig" : {
+        "maxTeamSizeDifference" : 3
+    },
+    "GameState" : {
+            "redTeamCount" : 0,
+            "blackTeamCount" : 0
+        }
+}
