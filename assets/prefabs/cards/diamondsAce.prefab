@@ -21,6 +21,10 @@
         "regenRate" : 4,
         "waitBeforeRegen" : 1
     },
+    "BaseRegen": {
+        "regenRate": 4,
+        "waitBeforeRegen": 1
+    },
     "DropGrammar": {
         "itemDrops": [
             "LightAndShadowResources:diamondsAce"

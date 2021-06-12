@@ -17,10 +17,11 @@
   },
   "Health" : {
     "currentHealth" : 64,
-    "maxHealth" : 64,
-    "regenRate" : 4,
-    "waitBeforeRegen" : 1,
-    "destroyEntityOnNoHealth": true
+    "maxHealth" : 64
+  },
+  "BaseRegen": {
+    "regenRate": 4,
+    "waitBeforeRegen": 1
   },
   "DropGrammar": {
     "itemDrops": [
