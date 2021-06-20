@@ -6,5 +6,6 @@ import org.terasology.engine.entitySystem.Component;
 import org.terasology.engine.world.block.items.AddToBlockBasedItem;
 
 @AddToBlockBasedItem
-public class RedFlagComponent implements Component {
+public class FlagComponent implements Component {
+    public String team;
 }
