@@ -1,7 +1,6 @@
 {
     "parent" : "flag",
-    "BlackFlag" : {},
-    "LASTeam" : {
+    "Flag" : {
         "team" : "black"
     }
 }
