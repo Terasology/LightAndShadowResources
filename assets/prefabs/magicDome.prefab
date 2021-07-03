@@ -9,5 +9,7 @@
     "mesh" : "LightAndShadowResources:zesphere",
     "material" : "LightAndShadowResources:magicDome",
     "translucent" : true
+  },
+  "Network": {
   }
 }
