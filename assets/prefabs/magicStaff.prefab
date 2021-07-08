@@ -7,7 +7,6 @@
         "icon" : "LightAndShadowResources:magicStaff",
         "usage": "IN_DIRECTION"
     },
-    "RaycastOnActivate": {},
     "Range": {
         "value": 30.0
     },
