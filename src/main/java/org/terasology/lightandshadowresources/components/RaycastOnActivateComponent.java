@@ -2,7 +2,12 @@
 // SPDX-License-Identifier: Apache-2.0
 package org.terasology.lightandshadowresources.components;
 
-import org.terasology.engine.entitySystem.Component;
 
-public class RaycastOnActivateComponent implements Component {
+import org.terasology.gestalt.entitysystem.component.Component;
+
+public class RaycastOnActivateComponent implements Component<RaycastOnActivateComponent> {
+    @Override
+    public void copy(RaycastOnActivateComponent other) {
+
+    }
 }
