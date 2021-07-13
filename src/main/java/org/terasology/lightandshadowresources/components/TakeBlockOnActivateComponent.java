@@ -2,12 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 package org.terasology.lightandshadowresources.components;
 
-import org.terasology.gestalt.entitysystem.component.Component;
+import org.terasology.gestalt.entitysystem.component.EmptyComponent;
 
-public class TakeBlockOnActivateComponent implements Component<TakeBlockOnActivateComponent> {
+public class TakeBlockOnActivateComponent extends EmptyComponent<TakeBlockOnActivateComponent> {
 
-    @Override
-    public void copy(TakeBlockOnActivateComponent other) {
-
-    }
 }

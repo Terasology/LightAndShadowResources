@@ -2,11 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 package org.terasology.lightandshadowresources.components;
 
-import org.terasology.gestalt.entitysystem.component.Component;
+import org.terasology.gestalt.entitysystem.component.EmptyComponent;
 
-public class SetTeamOnActivateComponent implements Component<SetTeamOnActivateComponent> {
-    @Override
-    public void copy(SetTeamOnActivateComponent other) {
-
-    }
+public class SetTeamOnActivateComponent extends EmptyComponent<SetTeamOnActivateComponent> {
 }

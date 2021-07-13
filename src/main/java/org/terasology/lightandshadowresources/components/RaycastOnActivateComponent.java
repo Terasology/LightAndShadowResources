@@ -3,11 +3,7 @@
 package org.terasology.lightandshadowresources.components;
 
 
-import org.terasology.gestalt.entitysystem.component.Component;
+import org.terasology.gestalt.entitysystem.component.EmptyComponent;
 
-public class RaycastOnActivateComponent implements Component<RaycastOnActivateComponent> {
-    @Override
-    public void copy(RaycastOnActivateComponent other) {
-
-    }
+public class RaycastOnActivateComponent extends EmptyComponent<RaycastOnActivateComponent> {
 }
