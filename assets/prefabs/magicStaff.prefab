@@ -8,7 +8,7 @@
         "usage": "IN_DIRECTION"
     },
     "Range": {
-        "value": 30.0
+        "range": 30.0
     },
     "FlagDropOnActivate": {}
 }
