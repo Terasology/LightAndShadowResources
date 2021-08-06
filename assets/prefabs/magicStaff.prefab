@@ -7,10 +7,13 @@
         "icon" : "LightAndShadowResources:magicStaff",
         "usage": "IN_DIRECTION"
     },
-    "RaycastOnActivate": {},
     "Purchasable": {
      },
-      "Value": {
+     "Value": {
         "value": 15
-      }
+     },
+    "Range": {
+        "range": 30.0
+    },
+    "FlagDropOnActivate": {}
 }
