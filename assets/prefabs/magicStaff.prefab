@@ -9,6 +9,8 @@
     },
     "RaycastOnActivate": {},
     "Purchasable": {
-        "cost" : 10
-    }
+     },
+      "Value": {
+        "value": 15
+      }
 }
