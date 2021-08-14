@@ -15,7 +15,7 @@ public class CardComponent implements Component<CardComponent> {
     public Prefab cardBlockPrefab;
 
     @Override
-    public void copy(CardComponent other) {
+    public void copyFrom(CardComponent other) {
         this.topBlockFamily = other.topBlockFamily;
         this.bottomBlockFamily = other.bottomBlockFamily;
         this.cardBlockPrefab = other.cardBlockPrefab;

@@ -18,7 +18,7 @@ public final class LASTeamComponent implements Component<LASTeamComponent> {
     }
 
     @Override
-    public void copy(LASTeamComponent other) {
+    public void copyFrom(LASTeamComponent other) {
         this.team = other.team;
     }
 }

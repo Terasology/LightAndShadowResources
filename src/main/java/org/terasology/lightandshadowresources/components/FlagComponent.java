@@ -10,7 +10,7 @@ public class FlagComponent implements Component<FlagComponent> {
     public String team;
 
     @Override
-    public void copy(FlagComponent other) {
+    public void copyFrom(FlagComponent other) {
         this.team = other.team;
     }
 }
