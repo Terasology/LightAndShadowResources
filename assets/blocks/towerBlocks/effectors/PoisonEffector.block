@@ -1,0 +1,5 @@
+{
+  "displayName": "Poison Effector",
+  "blockTile": "LightAndShadowResources:PoisonEffector",
+  "translucent":true
+}

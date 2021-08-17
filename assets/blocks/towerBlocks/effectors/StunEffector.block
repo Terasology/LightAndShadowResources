@@ -1,0 +1,5 @@
+{
+  "displayName": "Stun Effector",
+  "blockTile": "LightAndShadowResources:StunEffector",
+  "translucent":true
+}
