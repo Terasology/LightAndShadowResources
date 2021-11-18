@@ -1,4 +1,5 @@
 {
+    "hardness" : 0,
     "tiles" : {
         "all" : "LightAndShadowResources:blackBlockFloor"
     }
