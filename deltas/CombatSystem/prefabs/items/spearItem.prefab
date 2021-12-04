@@ -4,10 +4,10 @@
   },
   "Melee": {
     "primaryAttack": true,
-    "range": 2
+    "range": 4
   },
   "RandomDamage": {
-    "minDamage": 40,
-    "maxDamage": 60
+    "minDamage": 20,
+    "maxDamage": 30
   }
 }
