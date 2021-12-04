@@ -4,6 +4,6 @@
   },
   "RandomDamage": {
     "minDamage": 20,
-    "maxDamage": 25
+    "maxDamage": 30
   }
 }

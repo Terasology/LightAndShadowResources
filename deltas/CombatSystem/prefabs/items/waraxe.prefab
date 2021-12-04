@@ -3,7 +3,7 @@
     "cooldownTime": 1000
   },
   "RandomDamage": {
-    "minDamage": 30,
-    "maxDamage": 40
+    "minDamage": 40,
+    "maxDamage": 60
   }
 }
