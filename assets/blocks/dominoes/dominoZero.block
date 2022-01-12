@@ -1,3 +1,4 @@
 {
     "basedOn" : "lightAndShadowResources:domino"
+    "tile": "LightAndShadowResources:whiteDiceZero",
 }
