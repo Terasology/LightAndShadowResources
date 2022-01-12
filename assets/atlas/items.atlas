@@ -5,9 +5,9 @@
         "tileSize" : [16, 16],
         "gridDimensions" : [16, 16],
         "tileNames" : [
-            "clubTop", "club", "one", "two", "three", "", "", "", "", "", "", "", "", "", "", "",
-            "clubBottom", "spade", "four", "five", "six", "", "", "", "", "", "", "", "", "", "", "",
-            "spadeTop", "heart", "zero", "", "", "", "", "", "", "", "", "", "", "", "", "",
+            "clubTop", "club", "diceOne", "diceTwo", "diceThree", "", "", "", "", "", "", "", "", "", "", "",
+            "clubBottom", "spade", "diceFour", "diceFive", "diceSix", "", "", "", "", "", "", "", "", "", "", "",
+            "spadeTop", "heart", "diceZero", "", "", "", "", "", "", "", "", "", "", "", "", "",
             "spadeBottom", "diamond", "", "", "", "", "", "", "", "", "", "", "", "", "", "",
             "heartTop", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",
             "heartBottom", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",
