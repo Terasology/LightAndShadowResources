@@ -1,4 +1,5 @@
 {
-    "basedOn" : "lightAndShadowResources:domino"
-    "tile": "LightAndShadowResources:whiteDiceZero",
+    "displayName": "Domino Zero",
+    "basedOn" : "LightAndShadowResources:domino",
+    "tile": "LightAndShadowResources:whiteDiceZero"
 }
