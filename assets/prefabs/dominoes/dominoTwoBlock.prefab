@@ -1,0 +1,24 @@
+{
+  "DisplayName": {
+    "name": "Domino Two"
+  },
+
+  "Health" : {
+    "currentHealth" : 4,
+    "maxHealth" : 4,
+    "destroyEntityOnNoHealth": true
+  },
+  "BaseRegen": {
+    "regenRate": 4,
+    "waitBeforeRegen": 1
+  },
+  "DropGrammar": {
+    "itemDrops": [
+      "LightAndShadowResources:dominoTwo"
+    ]
+  },
+  "ActAsBlock": {
+    "block": "LightAndShadowResources:dominoTwo"
+  },
+  "Network": {}
+}
