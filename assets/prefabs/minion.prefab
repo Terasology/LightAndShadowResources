@@ -11,10 +11,7 @@
         "theme": "DWARF"
     },
     "CharacterMovement" : {
-        "groundFriction" : 16,
-        "maxGroundSpeed" : 2,
         "distanceBetweenFootsteps" : 1.5,
-        "distanceBetweenSwimStrokes" : 2.5,
         "height" : 1.6,
         "radius" : 0.3,
         "jumpSpeed" : 12
