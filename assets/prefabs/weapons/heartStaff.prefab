@@ -9,7 +9,7 @@
     "cooldownTime": 1000
   },
   "LaunchEntity": {
-    "launchEntityPrefab": "LightAndShadowResources:heartProjectile",
+    "launchEntityPrefab": "CombatSystem:fireBall",
     "impulse": 200
   },
   "RenderItemIconMesh": {}
