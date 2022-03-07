@@ -7,6 +7,11 @@
         "icon" : "LightAndShadowResources:magicStaff",
         "usage": "IN_DIRECTION"
     },
+    "Purchasable": {
+     },
+     "Value": {
+        "value": 15
+     },
     "Range": {
         "range": 30.0
     },
