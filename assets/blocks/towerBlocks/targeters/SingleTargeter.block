@@ -1,0 +1,5 @@
+{
+  "displayName": "Single Targeter",
+  "blockTile": "LightAndShadowResources:SingleTargeter",
+  "translucent":true
+}

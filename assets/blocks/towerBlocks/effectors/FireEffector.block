@@ -1,0 +1,5 @@
+{
+  "displayName": "Fire Effector",
+  "blockTile": "LightAndShadowResources:FireEffector",
+  "translucent":true
+}

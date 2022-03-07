@@ -1,0 +1,5 @@
+{
+  "displayName": "Plain Damage Effector",
+  "blockTile": "LightAndShadowResources:DamageEffector",
+  "translucent":true
+}

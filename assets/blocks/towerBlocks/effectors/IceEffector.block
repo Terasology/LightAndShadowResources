@@ -1,0 +1,5 @@
+{
+  "displayName": "Ice Effector",
+  "blockTile": "LightAndShadowResources:IceEffector",
+  "translucent":true
+}
