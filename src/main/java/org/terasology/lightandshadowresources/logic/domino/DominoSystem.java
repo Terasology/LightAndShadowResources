@@ -128,7 +128,7 @@ public class DominoSystem extends BaseComponentSystem {
             Vector3fc dominoCenter = new Vector3f(bottomBlockPos).add(0, 0.5f, 0);
             newDomino.addComponent(new LocationComponent(dominoCenter));
 
-            DominoComponent newDominoComp = newDomino.getComponent(DominoComponent.class);
+            DominoComponent newDominoComp = new Domino.getComponent(DominoComponent.class);
             newDominoComp.risenSide = risenSide;
             newDominoComp.fallSide = risenSide.rollClockwise(1);
             newDominoComp.isFallen = false;
@@ -173,7 +173,7 @@ public class DominoSystem extends BaseComponentSystem {
     public void onFrob(ActivateEvent event, EntityRef entity) {
         DominoComponent domino = entity.getComponent(DominoComponent.class);
         if (domino.isFallen) {
-            event.getInstigator().send(new DominoRisenEvent(entity)); //change this LN 🙂
+            event.getInstigator().send(new DominoRisenEvent(entity));
         } else {
             event.getInstigator().send(new DominoFallenEvent(entity));
         }
