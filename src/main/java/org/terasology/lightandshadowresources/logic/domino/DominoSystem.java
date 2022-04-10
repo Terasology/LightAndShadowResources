@@ -182,7 +182,7 @@ public class DominoSystem extends BaseComponentSystem {
     @ReceiveEvent
     public void riseDomino(DominoRisenEvent event, EntityRef player) {
         EntityRef entity = event.getDominoEntity();
-        DominoComponent domino = entity.getComponent(Dominocomponent.class);
+        DominoComponent domino = entity.getComponent(DominoComponent.class);
         BlockRegionComponent regionComp = entity.getComponent(BlockRegionComponent.class);
 
         setDominoBlocks(domino, regionComp.region, domino.risenSide);
