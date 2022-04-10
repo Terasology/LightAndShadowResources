@@ -187,9 +187,6 @@ public class DominoSystem extends BaseComponentSystem {
 
         setDominoBlocks(domino, regionComp.region, domino.risenSide);
 
-        if (domino.riseSound != null) {
-            entity.send(new PlaySoundEvent(domino.riseSound, 1f));
-        }
         domino.isFallen = false;
         entity.saveComponent(domino);
     }
@@ -202,9 +199,6 @@ public class DominoSystem extends BaseComponentSystem {
 
         setDominoBlocks(domino, regionComp.region, domino.fallSide);
 
-        if (domino.fallSound != null) {
-            entity.send(new PlaySoundEvent(domino.fallSound, 1f));
-        }
         domino.isFallen = true;
         entity.saveComponent(domino);
     }
