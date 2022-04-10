@@ -128,7 +128,7 @@ public class DominoSystem extends BaseComponentSystem {
             Vector3fc dominoCenter = new Vector3f(bottomBlockPos).add(0, 0.5f, 0);
             newDomino.addComponent(new LocationComponent(dominoCenter));
 
-            DominoComponent newDominoComp = new Domino.getComponent(DominoComponent.class);
+            DominoComponent newDominoComp = newDomino.getComponent(DominoComponent.class);
             newDominoComp.risenSide = risenSide;
             newDominoComp.fallSide = risenSide.rollClockwise(1);
             newDominoComp.isFallen = false;

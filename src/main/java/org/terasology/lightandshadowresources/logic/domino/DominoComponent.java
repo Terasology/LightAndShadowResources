@@ -14,23 +14,23 @@ import org.terasology.gestalt.entitysystem.component.Component;
 public class DominoComponent implements Component<DominoComponent> {
     public BlockFamily topBlockFamily;
     public BlockFamily bottomBlockFamily;
-    public Side closedSide;
-    public Side openSide;
+    public Side risenSide;
+    public Side fallSide;
     public StaticSound openSound;
     public StaticSound closeSound;
     public Prefab dominoRegionPrefab;
 
-    public boolean isOpen;
+    public boolean isFallen;
 
     @Override
     public void copyFrom(DominoComponent other) {
         this.topBlockFamily = other.topBlockFamily;
         this.bottomBlockFamily = other.bottomBlockFamily;
-        this.closedSide = other.closedSide;
-        this.openSide = other.openSide;
+        this.risenSide = other.risenSide;
+        this.fallSide = other.fallSide;
         this.openSound = other.openSound;
         this.closeSound = other.closeSound;
         this.dominoRegionPrefab = other.dominoRegionPrefab;
-        this.isOpen = other.isOpen;
+        this.isFallen = other.isFallen;
     }
 }
