@@ -3,8 +3,8 @@
         "name": "Domino"
     },
     "Domino": {
-        "topBlockFamily": "CoreAdvancedAssets:dominoTop",
-        "bottomBlockFamily": "CoreAdvancedAssets:dominoBottom"
+        "topBlockFamily": "LightAndShadowResources:DominoTop",
+        "bottomBlockFamily": "LightAndShadowResources:DominoBottom"
     },
     "Health": {
         "currentHealth": 5,
@@ -17,11 +17,11 @@
     },
     "DropGrammar": {
         "itemDrops": [
-            "CoreAdvancedAssets:domino"
+            "LightAndShadowResources:domino"
         ]
     },
     "ActAsBlock": {
-        "block": "CoreAdvancedAssets:dominoTop"
+        "block": "LightAndShadowResources:DominoTop"
     },
     "Network": {}
 }
