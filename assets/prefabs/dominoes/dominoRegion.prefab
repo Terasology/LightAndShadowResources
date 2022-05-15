@@ -1,0 +1,27 @@
+{
+    "DisplayName": {
+        "name": "Domino"
+    },
+    "Domino": {
+        "topBlockFamily": "CoreAdvancedAssets:dominoTop",
+        "bottomBlockFamily": "CoreAdvancedAssets:dominoBottom"
+    },
+    "Health": {
+        "currentHealth": 5,
+        "maxHealth": 5,
+        "destroyEntityOnNoHealth": true
+    },
+    "BaseRegen": {
+        "regenRate": 1,
+        "waitBeforeRegen": 2
+    },
+    "DropGrammar": {
+        "itemDrops": [
+            "CoreAdvancedAssets:domino"
+        ]
+    },
+    "ActAsBlock": {
+        "block": "CoreAdvancedAssets:dominoTop"
+    },
+    "Network": {}
+}

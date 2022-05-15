@@ -2,7 +2,11 @@
   "DisplayName": {
     "name": "Domino Six"
   },
-
+ "Domino Six": {
+        "topBlockFamily": "LightAndShadowResources:DominoTop",
+        "bottomBlockFamily": "LightAndShadowResources:DominoBottom",
+        "dominoRegionPrefab": "LightAndShadowResources:dominoRegion"
+    },
   "Health" : {
     "currentHealth" : 4,
     "maxHealth" : 4,

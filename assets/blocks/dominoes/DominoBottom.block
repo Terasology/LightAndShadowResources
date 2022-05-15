@@ -1,0 +1,6 @@
+{
+    "shape": "CoreAssets:door",
+    "family": "horizontal",
+    "attachmentAllowed": false,
+    "mass": 40,
+}
