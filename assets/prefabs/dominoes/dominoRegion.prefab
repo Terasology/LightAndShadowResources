@@ -2,10 +2,6 @@
     "DisplayName": {
         "name": "Domino"
     },
-    "Domino": {
-        "topBlockFamily": "LightAndShadowResources:DominoTop",
-        "bottomBlockFamily": "LightAndShadowResources:DominoBottom"
-    },
     "Health": {
         "currentHealth": 5,
         "maxHealth": 5,
@@ -19,9 +15,6 @@
         "itemDrops": [
             "LightAndShadowResources:domino"
         ]
-    },
-    "ActAsBlock": {
-        "block": "LightAndShadowResources:DominoTop"
     },
     "Network": {}
 }

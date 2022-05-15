@@ -3,8 +3,6 @@
     "name": "Domino Three"
   },
  "Domino Three": {
-        "topBlockFamily": "LightAndShadowResources:DominoTop",
-        "bottomBlockFamily": "LightAndShadowResources:DominoBottom",
         "dominoRegionPrefab": "LightAndShadowResources:dominoRegion"
     },
   "Health" : {
