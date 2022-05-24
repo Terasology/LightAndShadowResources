@@ -1,0 +1,5 @@
+{
+    "displayName": "Domino Five",
+    "basedOn" : "LightAndShadowResources:domino",
+    "tile": "LightAndShadowResources:whiteDiceFive"
+}

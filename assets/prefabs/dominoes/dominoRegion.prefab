@@ -1,0 +1,24 @@
+{
+    "DisplayName": {
+        "name": "Domino"
+    },
+    "Domino": {
+        "topBlockFamily": "LightAndShadowResources:DominoZero",
+        "bottomBlockFamily": "LightAndShadowResources:DominoZero"
+    },
+    "Health": {
+        "currentHealth": 5,
+        "maxHealth": 5,
+        "destroyEntityOnNoHealth": true
+    },
+    "BaseRegen": {
+        "regenRate": 1,
+        "waitBeforeRegen": 2
+    },
+    "DropGrammar": {
+        "itemDrops": [
+            "LightAndShadowResources:domino"
+        ]
+    },
+    "Network": {}
+}

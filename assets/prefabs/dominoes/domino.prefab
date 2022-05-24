@@ -1,0 +1,30 @@
+{
+  "parent": "engine:iconItem",
+  "DisplayName": {
+    "name": "Domino"
+  },
+  "Item" : {
+    "name" : "Domino",
+    "icon" : "LightAndShadowResources:items#domino",
+    "consumedOnUse" : true,
+    "usage" : "ON_BLOCK"
+  },
+  // Domino Component block families randomly picked on item consumption
+  "Domino": {
+    "dominoRegionPrefab": "LightAndShadowResources:dominoRegion"
+  },
+  "Health" : {
+    "currentHealth" : 64,
+    "maxHealth" : 64,
+    "destroyEntityOnNoHealth": false
+  },
+  "BaseRegen": {
+    "regenRate": 4,
+    "waitBeforeRegen": 1
+  },
+  "DropGrammar": {
+    "itemDrops": [
+      "LightAndShadowResources:domino"
+    ]
+  }
+}

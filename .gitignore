@@ -11,3 +11,8 @@ build.gradle
 .settings
 bin/
 build/
+.idea/misc.xml
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/runConfigurations.xml
+.idea/checkstyle-idea.xml
