@@ -7,7 +7,7 @@
         "tileNames" : [
             "clubTop", "club", "diceOne", "diceTwo", "diceThree", "", "", "", "", "", "", "", "", "", "", "",
             "clubBottom", "spade", "diceFour", "diceFive", "diceSix", "", "", "", "", "", "", "", "", "", "", "",
-            "spadeTop", "heart", "diceZero", "", "", "", "", "", "", "", "", "", "", "", "", "",
+            "spadeTop", "heart", "diceZero", "domino", "", "", "", "", "", "", "", "", "", "", "", "",
             "spadeBottom", "diamond", "", "", "", "", "", "", "", "", "", "", "", "", "", "",
             "heartTop", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",
             "heartBottom", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",

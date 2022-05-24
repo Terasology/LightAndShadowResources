@@ -3,6 +3,7 @@
 
 package org.terasology.lightandshadowresources.logic.domino;
 
+import com.google.common.collect.Lists;
 import org.joml.Vector3f;
 import org.joml.Vector3fc;
 import org.joml.Vector3i;
@@ -10,6 +11,7 @@ import org.joml.Vector3ic;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.terasology.engine.audio.AudioManager;
+import org.terasology.engine.audio.StaticSound;
 import org.terasology.engine.audio.events.PlaySoundEvent;
 import org.terasology.engine.entitySystem.entity.EntityManager;
 import org.terasology.engine.entitySystem.entity.EntityRef;
@@ -24,17 +26,24 @@ import org.terasology.engine.math.Side;
 import org.terasology.engine.registry.In;
 import org.terasology.engine.rendering.logic.MeshComponent;
 import org.terasology.engine.utilities.Assets;
+import org.terasology.engine.utilities.random.FastRandom;
+import org.terasology.engine.utilities.random.Random;
 import org.terasology.engine.world.BlockEntityRegistry;
 import org.terasology.engine.world.WorldProvider;
 import org.terasology.engine.world.block.Block;
 import org.terasology.engine.world.block.BlockComponent;
+import org.terasology.engine.world.block.BlockManager;
 import org.terasology.engine.world.block.BlockRegion;
 import org.terasology.engine.world.block.entity.placement.PlaceBlocks;
+import org.terasology.engine.world.block.family.BlockFamily;
 import org.terasology.engine.world.block.family.BlockPlacementData;
+import org.terasology.engine.world.block.loader.BlockFamilyDefinition;
 import org.terasology.engine.world.block.regions.BlockRegionComponent;
+import org.terasology.gestalt.assets.management.AssetManager;
 import org.terasology.gestalt.entitysystem.event.ReceiveEvent;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @RegisterSystem(RegisterMode.AUTHORITY)
@@ -56,6 +65,20 @@ public class DominoSystem extends BaseComponentSystem {
     private AudioManager audioManager;
     @In
     private EntitySystemLibrary entitySystemLibrary;
+    @In
+    private BlockManager blockManager;
+
+    public List<String> dominoHalves = Lists.newArrayList(
+            "LightAndShadowResources:dominoZero",
+            "LightAndShadowResources:dominoOne",
+            "LightAndShadowResources:dominoTwo",
+            "LightAndShadowResources:dominoThree",
+            "LightAndShadowResources:dominoFour",
+            "LightAndShadowResources:dominoFive",
+            "LightAndShadowResources:dominoSix"
+    );
+
+    private Random random = new FastRandom();
 
     @ReceiveEvent(components = {DominoComponent.class, ItemComponent.class})
     public void placeDomino(ActivateEvent event, EntityRef entity) {
@@ -63,6 +86,10 @@ public class DominoSystem extends BaseComponentSystem {
         BlockComponent targetBlockComp = event.getTarget().getComponent(BlockComponent.class);
         if (targetBlockComp == null) {
             event.consume();
+            return;
+        }
+        if (dominoHalves.size() <= 0) {
+            logger.debug("No domino halves to choose from to place domino");
             return;
         }
 
@@ -108,10 +135,11 @@ public class DominoSystem extends BaseComponentSystem {
 
         Side risenSide = facingDir.reverse();
 
-        Block newBottomBlock = domino.bottomBlockFamily.getBlockForPlacement(new BlockPlacementData(bottomBlockPos,
-                risenSide, TOP));
-        Block newTopBlock = domino.topBlockFamily.getBlockForPlacement(new BlockPlacementData(bottomBlockPos,
-                risenSide, TOP));
+
+        BlockFamily bottom = blockManager.getBlockFamily(random.nextItem(dominoHalves));
+        BlockFamily top = blockManager.getBlockFamily(random.nextItem(dominoHalves));
+        Block newBottomBlock = bottom.getBlockForPlacement(new BlockPlacementData(bottomBlockPos, risenSide, TOP));
+        Block newTopBlock = top.getBlockForPlacement(new BlockPlacementData(bottomBlockPos, risenSide, TOP));
 
         Map<org.joml.Vector3i, Block> blockMap = new HashMap<>();
         blockMap.put(bottomBlockPos, newBottomBlock);
@@ -129,6 +157,9 @@ public class DominoSystem extends BaseComponentSystem {
             newDomino.addComponent(new LocationComponent(dominoCenter));
 
             DominoComponent newDominoComp = newDomino.getComponent(DominoComponent.class);
+            if (newDominoComp == null) {
+                newDominoComp = new DominoComponent();
+            }
             newDominoComp.risenSide = risenSide;
             newDominoComp.fallSide = risenSide.rollClockwise(1);
             newDominoComp.isFallen = false;

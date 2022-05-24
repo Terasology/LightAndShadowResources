@@ -1,7 +1,7 @@
 {
-    "template" : true,
-    "shape" : "CoreAssets:door",
-    "family" : "horizontal",
-    "attachmentAllowed" : true,
-    "craftPlace" : false
+    "template": true,
+    "shape": "CoreAssets:door",
+    "family": "horizontal",
+    "attachmentAllowed": false,
+    "mass": 40
 }
